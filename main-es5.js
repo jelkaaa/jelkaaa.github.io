@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<body>\n    <div class=\"container-fluid\">\n        <app-header></app-header>\n        <div class=\"main\"><router-outlet></router-outlet></div>\n\n       <div class=\"footer\"><app-footer></app-footer></div>\n    </div>\n</body>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<body>\n    <div class=\"container-fluid\">\n        <app-header></app-header>\n        <img src=\"assets/infoLogo.png\">\n        <div class=\"main\"><router-outlet></router-outlet></div>\n\n       <div class=\"footer\"><app-footer></app-footer></div>\n    </div>\n</body>\n\n"
 
 /***/ }),
 
@@ -52,7 +52,7 @@ module.exports = "\n  <div class=\"card text-center footer\">\n    <div class=\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <i class=\"fas fa-phone-volume\">0643622526</i>\n  </div>\n  <div class=\"col-sm-6\">\n    <a  routerLink=\"/index\"><img class=\"logo-normal\" src=\"assets/logo.png\" alt=\"Hempak -logo\" class=\"logo\"></a>\n  </div>\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n      <i class=\"fas fa-home\">Gračanička 9 (I sprat), Beograd</i>\n  </div>\n</div>\n\n<!--<nav class=\"navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark nav nav-pills flex-column flex-sm-row sticky-top\">\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\"\n    aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Active</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" >Longer nav</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/bowen-tehnika\" routerLinkActive=\"active\">Linkaaaaaa</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\">Link</a>\n      <div ngbDropdown class=\"d-inline-block\">\n        <a ngbDropdownToggle class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" id=\"dropdownBasic1\">Longer nav</a>\n\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <button ngbDropdownItem>Action - 1</button>\n          <button ngbDropdownItem>Another Action</button>\n          <button ngbDropdownItem>Something else is here</button>\n        </div>\n      </div>\n\n\n\n  </div>\n</nav>\n-->\n<nav\n  class=\"navbar navbar-expand-lg navbar-light bg-dark sticky-top\" id=\"header\" #stickyActive >\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\n    aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n    <div class=\"col-sm-1\">\n        <a  routerLink=\"/index\"><img width=\"10\" height=\"80\" src=\"assets/navLogo2.png\" alt=\"Hempak -logo\" class=\"nav-logo\" #navLogo ></a>\n    </div>\n    <div  class=\"col-sm-10\">\n    <ul class=\"nav nav-pills nav-fill mx-auto\" >\n      <li class=\"nav-item\" >\n        <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Naslovna</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" ngbDropdownToggle >Bowen trening - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem>BTAA – Bowen Therapy Academy of Australia</a>\n          <a ngbDropdownItem>Obuka</a>\n          <a ngbDropdownItem>Nastavni program</a>\n          <a ngbDropdownItem routerLink= \"/seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLink= \"/seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\"   routerLinkActive=\"active\" ngbDropdownToggle>Bowen tehnika</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem routerLink= \"/bowen-tehnika/istorijat\">Istorijat</a>\n          <a ngbDropdownItem routerLink=\"/bowen-tehnika/sta-je-bowen\">Šta je Bowen tehnika</a>\n          <a ngbDropdownItem>Da li vam može pomoći</a>\n          <a ngbDropdownItem>Kako izgleda tretman</a>\n          <a ngbDropdownItem>Kako deluje</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\" ngbDropdownToggle>Novosti i dešavanja</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem routerLink= \"/novosti/dogadjaji\">Događaji</a>\n          <a ngbDropdownItem routerLink= \"/novosti/publikacije\">Publikacije</a>\n          <a ngbDropdownItem routerLink= \"/novosti/video\">Video</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/holisticki-centar\" routerLinkActive=\"active\" ngbDropdownToggle>Holistički centar</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem>Bowen tretmani</a>\n         <!--. <a ngbDropdownItem>Bahove kapi</a>\n          <a ngbDropdownItem>Aqua detox</a>\n          <a ngbDropdownItem>Reiki</a>\n          <a ngbDropdownItem>Rejuvance</a>\n          <a ngbDropdownItem>Nameštanje atlasa – prvog vratnog pršljena</a>..-->\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/onama\" routerLinkActive=\"active\" ngbDropdownToggle>O nama</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n         <!-- <a ngbDropdownItem>Članovi tima</a>-->\n          <a ngbDropdownItem routerLink=\"/kontakt\" routerLinkActive=\"active\">Kontakt</a>\n        </div>\n      </li>\n    </ul>\n    </div>\n    <div  class=\"col-sm-1 info\">\n          <span><i class=\"fab fa-facebook-square fa-2x\"></i></span>\n            &nbsp;\n          <span><i class=\"fab fa-instagram fa-2x\"></i></span>\n    </div>\n\n  </div>\n</nav>\n<div>\n\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <i class=\"fas fa-phone-volume\">0643622526</i>\n  </div>\n  <div class=\"col-sm-6\">\n    <a  routerLink=\"/index\"><img class=\"logo-normal\" src=\"assets/logo.png\" alt=\"Hempak -logo\" class=\"logo\"></a>\n  </div>\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n      <i class=\"fas fa-home\">Gračanička 9 (I sprat), Beograd</i>\n  </div>\n</div>\n\n<!--<nav class=\"navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark nav nav-pills flex-column flex-sm-row sticky-top\">\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\"\n    aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Active</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" >Longer nav</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/bowen-tehnika\" routerLinkActive=\"active\">Linkaaaaaa</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\">Link</a>\n      <div ngbDropdown class=\"d-inline-block\">\n        <a ngbDropdownToggle class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" id=\"dropdownBasic1\">Longer nav</a>\n\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <button ngbDropdownItem>Action - 1</button>\n          <button ngbDropdownItem>Another Action</button>\n          <button ngbDropdownItem>Something else is here</button>\n        </div>\n      </div>\n\n\n\n  </div>\n</nav>\n-->\n<nav\n  class=\"navbar navbar-expand-lg navbar-light bg-dark sticky-top\" id=\"header\" #stickyActive >\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\n    aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n    <div class=\"col-sm-1\">\n        <a  routerLink=\"/index\"><img width=\"10\" height=\"80\" src=\"assets/navLogo2.png\" alt=\"Hempak -logo\" class=\"nav-logo\" #navLogo ></a>\n    </div>\n    <div  class=\"col-sm-10\">\n    <ul class=\"nav nav-pills nav-fill mx-auto\" >\n      <li class=\"nav-item\" >\n        <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Naslovna</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a  class=\"nav-link\" routerLink= \"/bowen-tehnika\" routerLinkActive=\"active\" >Bowen tehnika</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" ngbDropdownToggle >Bowen trening - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem routerLink= \"/seminari/btaa\" >BTAA – Bowen Therapy Academy of Australia</a>\n          <a ngbDropdownItem routerLink= \"/seminari/obuka\">Obuka</a>\n          <a ngbDropdownItem routerLink= \"/seminari/nastavni-program\">Nastavni program</a>\n          <a ngbDropdownItem routerLink= \"/seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLink= \"/seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\" ngbDropdownToggle>Novosti i dešavanja</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem routerLink= \"/novosti/dogadjaji\">Događaji</a>\n          <a ngbDropdownItem routerLink= \"/novosti/publikacije\">Publikacije</a>\n          <a ngbDropdownItem routerLink= \"/novosti/video\">Video</a>\n        </div>\n      </li>\n      <!--. <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/holisticki-centar\" routerLinkActive=\"active\" ngbDropdownToggle>Holistički centar</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem>Bowen tretmani</a>\n         <a ngbDropdownItem>Bahove kapi</a>\n          <a ngbDropdownItem>Aqua detox</a>\n          <a ngbDropdownItem>Reiki</a>\n          <a ngbDropdownItem>Rejuvance</a>\n          <a ngbDropdownItem>Nameštanje atlasa – prvog vratnog pršljena</a>..\n        </div>\n      </li>-->\n      <li class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/rejuvance\" routerLinkActive=\"active\" >Rejuvance</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/kontakt\" routerLinkActive=\"active\" >Kontakt</a>\n\n      </li>\n    </ul>\n    </div>\n    <div  class=\"col-sm-1 info\">\n          <span><i class=\"fab fa-facebook-square fa-2x\"></i></span>\n            &nbsp;\n          <span><i class=\"fab fa-instagram fa-2x\"></i></span>\n    </div>\n\n  </div>\n</nav>\n<div>\n\n</div>\n"
 
 /***/ }),
 
@@ -96,7 +96,7 @@ module.exports = "<p>appearance-treatment works!</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<router-outlet></router-outlet>\n"
+module.exports = "<div class=\"card\">\n    <div class=\"row\" (click)=\"isVisibleSection1 = !isVisibleSection1\">\n      <div class=\"col-lg-10\">\n        <p>Istorijat.</p>\n      </div>\n      <div class=\"col-lg-2 arrow\">\n        <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isVisibleSection1\"></i><i\n            class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isVisibleSection1\"></i></span>\n\n      </div>\n    </div>\n  </div>\n  <div class=\"card-body\" *ngIf=\"isVisibleSection1\" >\n\n      <img src=\"http://127.0.0.1:8000/storage/tom-bowen.jpg\" alt=\"...\" class=\"img-thumbnail rounded-circle\">\n      <h2>Bowen tehnika je dobila ime po svom osnivaču Tom Bowen-u, koji je počeo da je razvija pedesetih godina prošlog veka u Australiji.</h2>\n\n      <p>Rođen je u Australiji, u Brunsviku, predgradju Melburna. Bio je jedini sin, mada je porodica Bowen, koja je iz Britanije emigrirala u Australiju početkom dvadesetog veka, imala i dve ćerke, Viliamu i Noru, starije od Toma. Tom je želeo da uči medicinu, ali zbog slabog materijalnog stanja porodice nije imao tu mogućnost, već je kao i njegov otac postao stolar i zaposlio se u lokalnoj fabrici cementa.</p>\n      <h2>Iako bez formalnog medicinskog znanja, želja da pomogne drugima ga je vodila kroz život.</h2>\n   <p>\n    Učio kako da izvodi određene pokrete i tehnike od nadarenih praktičara, svojih savremenika, tokom 1920-ih i 1930-ih godina. Proučavao je metode komplementarne medicine i intuitivno primenjivao i integrisao ono što je smatrao da je najefikasnije. Pokreti koje je savladao i oni koje je sam izumeo, kasnije su pretočeni u ono što će postati Bowen Terapijska Tehnika.\n        <br>\n        <br>\n        Njegova supruga Džesi je imala astmu i zbog gušenja je često bila hospitalizovana. U želji da joj pomogne, Tom je počeo da primenjuje svoje znanje i Džesino zdravstveno stanje se popravljalo, te posle nekog vremena nije bilo potrebe za lekovima ili hospitalizacijom zahvaljujući njegovom metodu.\n        <br>\n        <br>\n        Takođe je pomagao i svojim kolegama na poslu. Svi su ubrzo shvatili da Tom ima svoj jedinstveni metod za pomoć svakom ko se povredi. Danju je još uvek radio kao stolar, dok je noću, kod kuće, lečio sve više ljudi koji su tražili pomoć za različite zdravstvene probleme.\n        <br>\n        <br>\n        Njegovi prijatelji Sten i Rene Horvud ubrzo su mu ponudili deo svoje kuće za ordinaciju, a Rene je prihvatila da mu bude sekretarica i vodi računa o svim praktičnim pitanjima.\n        <br>\n        <br>\n        To je bio početak životnog puta čoveka koji je svojim nesebičnim radom i energijom postao vrlo poštovan i cenjen.\n   <br>\n   <br>\n   Ubrzo je imao toliko klijenata, da je postalo očigledno da ne može ostati u privatnoj kući, pa se preselio na drugu lokaciju, a kasnije se opet preselio, pa je imao čitavu kliniku gde je obavljao oko 13 000 tretmana godišnje, što je čak potvrđeno 1975. godine od strane Ministarstva zdravlja.\n   <br>\n   <br>\n   U radu ga je prvenstveno vodila intuicija.Vremenom je razvijao i usavršavao svoju tehniku. Svoj metod je primenjivao ne samo na ljudima već i na životinjama koje su uzgajali farmeri.\n   <br>\n   <br>\n   Bio je intuitivna, jednostavna, skromna i radna osoba. Sam je izjavljivao da je njegov rad „Dar od Boga“.\n\n\n  </p>\n  </div>\n  <div class=\"card\">\n      <div class=\"row\" (click)=\"isVisibleSection2 = !isVisibleSection2\">\n        <div class=\"col-lg-10\">\n          <p>Šta je Bowen tehnika?</p>\n        </div>\n        <div class=\"col-lg-2 arrow\">\n          <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isVisibleSection2\"></i><i\n              class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isVisibleSection2\"></i></span>\n\n        </div>\n      </div>\n    </div>\n    <div class=\"card-body\" *ngIf=\"isVisibleSection2\" >\n\n    </div>\n\n    <div class=\"card\">\n        <div class=\"row\" (click)=\"isVisibleSection3 = !isVisibleSection3\">\n          <div class=\"col-lg-10\">\n            <p>Da li vam može pomoći?</p>\n          </div>\n          <div class=\"col-lg-2 arrow\">\n            <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isVisibleSection3\"></i><i\n                class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isVisibleSection3\"></i></span>\n\n          </div>\n        </div>\n      </div>\n      <div class=\"card-body\" *ngIf=\"isVisibleSection3\" >\n\n      </div>\n\n      <div class=\"card\">\n          <div class=\"row\" (click)=\"isVisibleSection4 = !isVisibleSection4\">\n            <div class=\"col-lg-10\">\n              <p>Kako izgleda tretman?</p>\n            </div>\n            <div class=\"col-lg-2 arrow\">\n              <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isVisibleSection4\"></i><i\n                  class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isVisibleSection4\"></i></span>\n\n            </div>\n          </div>\n        </div>\n        <div class=\"card-body\" *ngIf=\"isVisibleSection4\" >\n\n        </div>\n        <div class=\"card\">\n            <div class=\"row\" (click)=\"isVisibleSection5 = !isVisibleSection5\">\n              <div class=\"col-lg-10\">\n                <p>Kako deluje?</p>\n              </div>\n              <div class=\"col-lg-2 arrow\">\n                <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isVisibleSection5\"></i><i\n                    class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isVisibleSection5\"></i></span>\n\n              </div>\n            </div>\n          </div>\n          <div class=\"card-body\" *ngIf=\"isVisibleSection5\" >\n\n          </div>\n"
 
 /***/ }),
 
@@ -118,7 +118,7 @@ module.exports = "<p>can-bowen-help works!</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container\">\n    <h1>Istorijat bowena</h1>\n    <hr>\n  <div class=\"row\" >\n\n      <img src=\"http://127.0.0.1:8000/storage/tom-bowen.jpg\" alt=\"...\" class=\"img-thumbnail rounded-circle\">\n      <h2>Bowen tehnika je dobila ime po svom osnivaču Tomu Bowenu, koji je počeo da je razvija pedesetih godina prošlog veka u Australiji.</h2>\n\n      <p>Rođen je u Brunsvicku, predgradju Melbourne-a, državi Victoria (Australia) i bio je jedini sin (imao je dve starije sestre) Villiamu i Norah Bowenu koji su iz Britanije emigrirali u Australiju početkom 1900-ih. Želeo je da uči medicinu, ali zbog slabog materijalnog stanja porodice nije imao tu mogućnost, već je kao i njegov otac postao stolar i zaposlio se u lokalnoj fabrici cementa.</p>\n      <h2>Iako bez formalnog medicinskog znanja, želja da pomogne drugima ga je vodila kroz život.</h2>\n   <p>\n      Učio kako da izvodi određene pokrete i tehnike od nadarenih praktičara,\n       svojih savremenika, tokom 1920-ih i 1930-ih godina. Proučavao je metode komplementarne medicine i\n       intuitivno primenjivao i integrisao ono što je smatrao da je najefikasnije. Pokreti koje je savladao\n        i oni koje je sam izumeo, kasnije su pretočeni u ono što će postati Bowen Terapijska Tehnika.\n        <br>\n        <br>\n        Njegova supruga Jessie bolovala je od astme i zbog gušenja često je bila hospitalizovana. U želji da joj pomogne počeo je povremeno da je tretira. Jessie-no zdravstveno stanje se popravljalo i na kraju nije bilo potrebe za  lekovima ili hospitalizacijom zahvaljujući Tomovom metodu.\n        Takođe je pomagao i svojim kolegama na poslu. Svi su ubrzo shvatili da Tom ima svoj jedinstveni metod za pomoć svakom ko se povredi. Danju je još uvek radio kao stolar, dok je noću, kod kuće, lečio sve više ljudi koji su tražili pomoć za različite zdravstvene probleme.\n        <br>\n        <br>\n        Njegovi prijatelji Stan i Renee Horwood ubzo su mu ponudili deo svoje kuće za ordinaciju, a Renne se prihvatila da mu bude sekretarica i vodu računa o svim praktičnim pitanjima.\n        <br>\n        <br>\n        To je bio početak životnog puta čoveka, koji je svojim nesebičnim radom i energijom postao vrlo poštovan i cenjen među ljudima.\n        Ubrzo je imao toliko klijenata, da je postalo očigledno da ne može ostati u privatnoj kući pa se preselio na drugu lokaciju Latrobe Terrace 99. I tu je uskoro postalo tesno za sve klijente, pa je Klinika preseljena u Latrobe Terrace 283. Osnovao je kliniku na kojoj je obavljao oko 13 000 tretmana godišnje, što je potvrđeno 1975. godine od strane Ministarstva zdravlja u Viktoriji.\n        <br>\n        <br>\n        U radu ga je prvenstveno vodila intuicija. Vremenom je razvijao i usavršava svoju tehniku. Svoj metod je primenjivao ne samo na ljudima već i na životinjama koje su uzgajali farmeri.\n   <br>\n   <br>\n   Bio je intuitivna, jednostavna, skromna i radna osoba. Sam je izjavljivao da je njegov rad „poklon od Boga“.\n      </p>\n\n   <p>\n    </p>\n    <p></p>\n    <p></p>\n    <p></p>\n\n        <p></p>\n    <p></p>\n      </div>\n  </div>\n  <hr>\n"
+module.exports = "\n<div class=\"container\">\n    <h1>Istorijat bowena</h1>\n    <hr>\n  <div class=\"row\" >\n\n      <img src=\"http://127.0.0.1:8000/storage/tom-bowen.jpg\" alt=\"...\" class=\"img-thumbnail rounded-circle\">\n      <h2>Bowen tehnika je dobila ime po svom osnivaču Tom Bowen-u, koji je počeo da je razvija pedesetih godina prošlog veka u Australiji.</h2>\n\n      <p>Rođen je u Australiji, u Brunsviku, predgradju Melburna. Bio je jedini sin, mada je porodica Bowen, koja je iz Britanije emigrirala u Australiju početkom dvadesetog veka, imala i dve ćerke, Viliamu i Noru, starije od Toma. Tom je želeo da uči medicinu, ali zbog slabog materijalnog stanja porodice nije imao tu mogućnost, već je kao i njegov otac postao stolar i zaposlio se u lokalnoj fabrici cementa.</p>\n      <h2>Iako bez formalnog medicinskog znanja, želja da pomogne drugima ga je vodila kroz život.</h2>\n   <p>\n    Učio kako da izvodi određene pokrete i tehnike od nadarenih praktičara, svojih savremenika, tokom 1920-ih i 1930-ih godina. Proučavao je metode komplementarne medicine i intuitivno primenjivao i integrisao ono što je smatrao da je najefikasnije. Pokreti koje je savladao i oni koje je sam izumeo, kasnije su pretočeni u ono što će postati Bowen Terapijska Tehnika.\n        <br>\n        <br>\n        Njegova supruga Džesi je imala astmu i zbog gušenja je često bila hospitalizovana. U želji da joj pomogne, Tom je počeo da primenjuje svoje znanje i Džesino zdravstveno stanje se popravljalo, te posle nekog vremena nije bilo potrebe za lekovima ili hospitalizacijom zahvaljujući njegovom metodu.\n        <br>\n        <br>\n        Takođe je pomagao i svojim kolegama na poslu. Svi su ubrzo shvatili da Tom ima svoj jedinstveni metod za pomoć svakom ko se povredi. Danju je još uvek radio kao stolar, dok je noću, kod kuće, lečio sve više ljudi koji su tražili pomoć za različite zdravstvene probleme.\n        <br>\n        <br>\n        Njegovi prijatelji Sten i Rene Horvud ubrzo su mu ponudili deo svoje kuće za ordinaciju, a Rene je prihvatila da mu bude sekretarica i vodi računa o svim praktičnim pitanjima.\n        <br>\n        <br>\n        To je bio početak životnog puta čoveka koji je svojim nesebičnim radom i energijom postao vrlo poštovan i cenjen.\n   <br>\n   <br>\n   Ubrzo je imao toliko klijenata, da je postalo očigledno da ne može ostati u privatnoj kući, pa se preselio na drugu lokaciju, a kasnije se opet preselio, pa je imao čitavu kliniku gde je obavljao oko 13 000 tretmana godišnje, što je čak potvrđeno 1975. godine od strane Ministarstva zdravlja.\n   <br>\n   <br>\n   U radu ga je prvenstveno vodila intuicija.Vremenom je razvijao i usavršavao svoju tehniku. Svoj metod je primenjivao ne samo na ljudima već i na životinjama koje su uzgajali farmeri.\n   <br>\n   <br>\n   Bio je intuitivna, jednostavna, skromna i radna osoba. Sam je izjavljivao da je njegov rad „Dar od Boga“.\n\n\n  </p>\n      </div>\n  </div>\n  <hr>\n"
 
 /***/ }),
 
@@ -207,17 +207,6 @@ module.exports = "<p>holistic-center works!</p>\n"
 /***/ (function(module, exports) {
 
 module.exports = "<p>reiki works!</p>\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/pages/holistic-center/rejuvance/rejuvance.component.html":
-/*!****************************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/pages/holistic-center/rejuvance/rejuvance.component.html ***!
-  \****************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>rejuvance works!</p>\n"
 
 /***/ }),
 
@@ -316,7 +305,7 @@ module.exports = "<router-outlet></router-outlet>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>publications works!</p>\n"
+module.exports = "\n  <div class=\"card\">\n    <div class=\"row\" (click)=\"isFirstFileVisible = !isFirstFileVisible\">\n      <div class=\"col-lg-10\">\n        <p>1. Alexandra Antoniou - intervju magazin Sensa</p>\n      </div>\n      <div class=\"col-lg-2 arrow\">\n        <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isFirstFileVisible\"></i><i\n            class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isFirstFileVisible\"></i></span>\n\n      </div>\n    </div>\n  </div>\n  <div class=\"card-body\"> <embed [src]=\"serverFile2\" class=\"pdf-files\" *ngIf=\"isFirstFileVisible\" /></div>\n  <div class=\"card\">\n    <div class=\"row\" (click)=\"isSecondFileVisible = !isSecondFileVisible\">\n      <div class=\"col-lg-10\">\n        <p class=\"e2e-trusted-url\">2. Prof. Andrew Zoppos, intervju za\n          časopis Bilje & Zdravlje</p>\n      </div>\n      <div class=\"col-lg-2 arrow\">\n        <span><i class=\"fas fa-arrow-circle-down fa-2x\" *ngIf=\"!isSecondFileVisible\"></i><i\n            class=\"fas fa-arrow-circle-up fa-2x\" *ngIf=\"isSecondFileVisible\"></i></span>\n\n      </div>\n    </div>\n  </div>\n  <div class=\"card-body\">\n    <embed [src]=\"serverFile1\" class=\"pdf-files\" *ngIf=\"isSecondFileVisible\" />\n  </div>\n  <div class=\"card\" >\n      <div class=\"row\" (click)='openNewTab()'>\n        <div class=\"col-lg-10\">\n          <p >3. Blic magazin</p>\n        </div>\n        <div class=\"col-lg-2 arrow\">\n          <span><i class=\"fas fa-external-link-alt fa-2x\"></i></span>\n\n        </div>\n      </div>\n    </div>\n"
 
 /***/ }),
 
@@ -327,7 +316,7 @@ module.exports = "<p>publications works!</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<iframe width=\"420\" height=\"315\"\nsrc=\"https://www.youtube.com/embed/P2KqcPWwjJY\">\n</iframe>\n<iframe width=\"420\" height=\"315\"\nsrc=\"https://www.youtube.com/embed/hkRiDBVcvXU\">\n</iframe>\n<iframe width=\"420\" height=\"315\"\nsrc=\"https://www.youtube.com/embed/MlU3ojFPmB8\">\n</iframe>\n"
+module.exports = "<!--<div *ngFor=\"let video of videos\" >\n  <iframe width=\"420\" height=\"315\"\n  [src]=\"getVideosUrl(video.video_url)\">\n  </iframe>\n</div>-->\n<div class=\"col-lg-12\">\n\n\n  <h1 class=\"font-weight-light text-center text-lg-left mb-0\">Video</h1>\n\n  <hr class=\"\">\n\n  <div class=\"row text-center \">\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/hkRiDBVcvXU\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/MlU3ojFPmB8\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/6p17D02ZLCg\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/HklGBQSluHk\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/h91YSQlpkIc\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/duT_54GkNPk\">\n      </iframe>\n    </div>\n    <div class=\"col-lg-3 col-md-4 col-6\">\n      <iframe class=\"video-layout\" webkitallowfullscreen mozallowfullscreen allowfullscreen\n        src=\"https://www.youtube.com/embed/6FTpktkQZJU\">\n      </iframe>\n    </div>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -342,6 +331,17 @@ module.exports = "<ul>\n  <li>{{quote.content}}\n\n    <span *ngIf=\"isDeleted\"
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance/rejuvance.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rejuvance/rejuvance.component.html ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<img src=\"{{serverUrl}}/rejuvance-logo.png\" alt=\"...\" class=\"logo\">\n<br>\n\n<div class=\"table-responsive\" *ngFor=\"let title of titles;let i = index;\">\n  <table class=\"table table-bordered\"  *ngIf=\"title == 'Rejuvance' && title != null\">\n  <thead>\n      <h2>Predstojeci Seminari</h2>\n    <tr class=\"bg-info\">\n      <th scope=\"col\">Grad</th>\n      <th scope=\"col\">Seminari</th>\n      <th scope=\"col\">Grupa/Broj</th>\n      <th scope=\"col\">Instruktori</th>\n      <th scope=\"col\">Datum</th>\n      <th scope=\"col\">Vreme</th>\n    </tr>\n  </thead>\n  <tbody  *ngFor=\"let seminar of seminars;let i = index;\">\n    <tr *ngIf=\"seminar.title == 'Rejuvance'\" >\n      <td>{{seminar.town}}</td>\n      <td>{{seminar.seminars}}</td>\n      <td>{{seminar.group}}</td>\n      <td>{{seminar.instructors}}</td>\n      <td>{{seminar.date}}</td>\n      <td>{{seminar.time}}</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/pages/seminars/btaa/btaa.component.html":
 /*!***********************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/pages/seminars/btaa/btaa.component.html ***!
@@ -349,7 +349,7 @@ module.exports = "<ul>\n  <li>{{quote.content}}\n\n    <span *ngIf=\"isDeleted\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>btaa works!</p>\n"
+module.exports = "<div class=\"container\" align=\"center\">\n    <h1>BTAA – Bowen Therapy Academy of Australia</h1>\n<br>\n  <p>\n      Osnivač i direktor BTAA, gospodin Osvald Renč (Oswald Rentsch) je Bowen tehniku učio direktno od Toma Bowena, uz kojeg je proveo dve ipo godine beležeći, crtajući i prateći Tomov rad.\n\n      <br>\n      <br>\n      Osvald - Osi (Ossie) i njegova supruga Elen (Elaine) koja je takođe učila kod Toma Bowena, su 1976 godine otvorili naturopatsku praksu u Hamiltonu (Zapadna Viktorija), koristeći samo Bowen tehniku kao model manuelne tehnike.\n\n      <br>\n        <br>\n\n        Kasnije je uz pomoć Rene Horvud (Renee Horwood), Tomove sekretarice, sastavio i osmislio priručnike za obuku praktičara Bowen terapijske tehnike, kako su je nazvali u čast Toma Bowena.\n        <br>\n        <br>\n        Na zahtev Toma, da nakon njegove smrti podučava ovu tehniku, Osi i Elen su održali 1986. godine prvi seminar u Pertu (Perth). Do 1990. godine Osi i Elen su održavali seminare po celoj Australiji.\n\n        <br>\n        <br>\n        Posvećeni očuvanju tehnike i obezbeđivanju njene nastave u izvornom obliku, 1987. godine osnivaju Australijski Akademiju Bowen Terapije (BTAA), nazvavši tehniku Bowtech – The Bowen Technique\n        <br>\n        <br>\n        Od tada, Osi i Elen su predstavili Bowtech u mnogim zemljama, poštujući obećanje koje je Osi dao Tomu Bowenu na njegovoj samrtnoj postelji, da će širiti njegov rad po celom svetu.\n\n        <br>\n        <br>\n        Pošto je ova tehnika toliko efikasna, široki spektar ljudi ju je prihvatio. Zdravstveni radnici su impresionirani efikasnošću Bowen tehnike i raznolikošću zdravstvenih problema koji se mogu rešiti.\n  </p>\n\n"
 
 /***/ }),
 
@@ -393,7 +393,7 @@ module.exports = "<p>teaching-program works!</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>training-course works!</p>\n"
+module.exports = "<div class=\"container\" align=\"left\">\n\n    <h1 align=\"center\">Obuka</h1>\n  <br>\n    <p>\n        Obuka za Bowen praktičara sastoji se od četiri seminara u trajanju od po četiri dana, koji se organizuju svakih 2 do3 meseca. Vreme između seminara je neophodno da bi se naučeno uvežbalo i praktično primenjivalo pre nastavka obuke na sledećem modulu i kako bi polaznici kompletirali 10 studija slučajeva do modula 7.\n        <br>\n        <br>\n        Prva tri seminara sastoje se od po dva modula, dok se na poslednjem, modulu 7 (oko 9-12 meseci od početka obuke), polaže pismeni i praktični deo ispita kako bi se stekla diploma praktičara, koju izdaje Australijska Akademija Bowen Terapije (BTAA).\n        <br>\n          <br>\n\n          Za učenje ove tehnike nije neophodno prethodno medicinsko obrazovanje. Ipak, za dobijanje diplome praktičara neophodan je dokaz o položenom ispitu (najmanje 60 časova) Anatomije i fiziologije od strane priznate institucije (srednja medicinska škola ili fakultet, ili pohađanje seminara u našoj organizaciji, koji je akreditovan od strane BTAA) i sertifikat o završenoj obuci Prve pomoći\n            <br>\n          <br>\n          Na svakom seminaru dobija se priručnik na srpskom jeziku sa detaljnim i sveobuhvatnim objašnjenjima.\n          <br>\n          <br>\n          Da biste sebi osigurali mesto na seminaru, potrebno je uplatiti depozit mesec dana pre početka seminara. U slučaju otkaza neophodno je da obavestite organizatora najkasnije dve nedelje pre početka kursa, u suprotnom depozit se ne vraća.\n          <br>\n          <br>\n          Po pravilima i po zakonu o zaštiti podataka, tokom predavanja se očekuje poštovanje privatnosti svih prisutnih. To znači da nije dozvoljeno snimanje tona/glasa, ni fotografisanje bez prethodnog odobrenja ostalih učesnika/ca za vreme trajanja seminara, bilo da se snimanje odvija profesionalnim uređajima ili mobilnim telefonima. Takođe, komunikacija mobilnim telefonima dozvoljena je u pauzama ili van mesta održavanja predavanja\n          <br>\n          <br>\n          Za prisustvo na Bowen seminarima potrebno je sledeće:<br><img src=\"assets/star.png\"> Kratko isečeni nokti (nakon pokazivanja procedura, pokreti se uče tako što vežbate jedni na drugima i zbog tačnog izvodjenja pokreta radi se na goloj koži, pa je važno da ne ostavite ogrebotine na koži kolega/inica)<br><img src=\"assets/star.png\"> Udobna odeća – šorts ili kupaći kostim, itd.<br><img src=\"assets/star.png\"> Krejon (za obeležavanje tačnih mesta na kojima se izvode pokreti)<br><img src=\"assets/star.png\"> Dva velika peškira (ili čaršav i veliki peškir)<br><img src=\"assets/star.png\"> Sveska za beleške<br><img src=\"assets/star.png\"> Dobro raspoloženje!\n          <br>Vidimo se uskoro! </p>\n  </div>\n"
 
 /***/ }),
 
@@ -419,25 +419,27 @@ module.exports = "<div class=\"table-responsive\" *ngFor=\"let title of titles;l
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
-/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
-/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
-/* harmony import */ var _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/bowen-technique/what-is-bowen/what-is-bowen.component */ "./src/app/pages/bowen-technique/what-is-bowen/what-is-bowen.component.ts");
-/* harmony import */ var _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/bowen-technique/history/history.component */ "./src/app/pages/bowen-technique/history/history.component.ts");
-/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
-/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
-/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
-/* harmony import */ var _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/holistic-center/holistic-center.component */ "./src/app/pages/holistic-center/holistic-center.component.ts");
-/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
-/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
-/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
-/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
-/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
+/* harmony import */ var _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/seminars/teaching-program/teaching-program.component */ "./src/app/pages/seminars/teaching-program/teaching-program.component.ts");
+/* harmony import */ var _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/seminars/training-course/training-course.component */ "./src/app/pages/seminars/training-course/training-course.component.ts");
+/* harmony import */ var _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/seminars/btaa/btaa.component */ "./src/app/pages/seminars/btaa/btaa.component.ts");
+/* harmony import */ var _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/rejuvance/rejuvance.component */ "./src/app/pages/rejuvance/rejuvance.component.ts");
+/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
+/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
+/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
+/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
+/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
+/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
+/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
+/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
+/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
+/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
+/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
+
 
 
 
@@ -460,33 +462,34 @@ __webpack_require__.r(__webpack_exports__);
 
 var appRoutes = [
     { path: '', redirectTo: 'index', pathMatch: 'full' },
-    { path: 'index', component: _pages_index_index_component__WEBPACK_IMPORTED_MODULE_13__["IndexComponent"] },
-    { path: 'seminari', component: _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_17__["SeminarsComponent"], children: [
-            { path: 'predstojeci-seminari', component: _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_7__["UpcomingSeminarsComponent"] },
-            { path: 'instruktori', component: _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_6__["InstructorsComponent"] }
+    { path: 'index', component: _pages_index_index_component__WEBPACK_IMPORTED_MODULE_14__["IndexComponent"] },
+    { path: 'seminari', component: _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_18__["SeminarsComponent"], children: [
+            { path: 'btaa', component: _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_3__["BtaaComponent"] },
+            { path: 'obuka', component: _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_2__["TrainingCourseComponent"] },
+            { path: 'nastavni-program', component: _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_1__["TeachingProgramComponent"] },
+            { path: 'predstojeci-seminari', component: _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_9__["UpcomingSeminarsComponent"] },
+            { path: 'instruktori', component: _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_8__["InstructorsComponent"] }
         ] },
-    { path: 'bowen-tehnika', component: _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_16__["BowenTechniqueComponent"], children: [
-            { path: 'istorijat', component: _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_5__["HistoryComponent"] },
-            { path: 'sta-je-bowen', component: _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_4__["WhatIsBowenComponent"] }
+    { path: 'bowen-tehnika', component: _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_17__["BowenTechniqueComponent"] },
+    { path: 'novosti', component: _pages_news_news_component__WEBPACK_IMPORTED_MODULE_13__["NewsComponent"], children: [
+            { path: 'dogadjaji', component: _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_7__["EventsComponent"] },
+            { path: 'publikacije', component: _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_6__["PublicationsComponent"] },
+            { path: 'video', component: _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_5__["VideoComponent"] }
         ] },
-    { path: 'novosti', component: _pages_news_news_component__WEBPACK_IMPORTED_MODULE_12__["NewsComponent"], children: [
-            { path: 'dogadjaji', component: _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_3__["EventsComponent"] },
-            { path: 'publikacije', component: _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_2__["PublicationsComponent"] },
-            { path: 'video', component: _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_1__["VideoComponent"] }
-        ] },
-    { path: 'holisticki-centar', component: _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_11__["HolisticCenterComponent"] },
-    { path: 'onama', component: _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_18__["AboutUsComponent"] },
-    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_9__["LoginComponent"] },
-    { path: 'kontakt', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"] },
-    { path: 'login/admin', canActivate: [_pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_19__["AuthGuard"]], component: _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_8__["AdminComponent"] }
+    //{ path: 'holisticki-centar', component: HolisticCenterComponent},
+    { path: 'onama', component: _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_19__["AboutUsComponent"] },
+    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__["LoginComponent"] },
+    { path: 'kontakt', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_12__["ContactComponent"] },
+    { path: 'login/admin', canActivate: [_pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_20__["AuthGuard"]], component: _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_10__["AdminComponent"] },
+    { path: 'rejuvance', component: _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_4__["RejuvanceComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_14__["NgModule"])({
-            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_15__["RouterModule"].forRoot(appRoutes)],
-            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_15__["RouterModule"]]
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_15__["NgModule"])({
+            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__["RouterModule"].forRoot(appRoutes)],
+            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__["RouterModule"]]
         })
     ], AppRoutingModule);
     return AppRoutingModule;
@@ -503,7 +506,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "* {\r\n  font-family: sans-serif;\r\n }\r\n .container-fluid {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\r\n}\r\n .main{\r\n  margin-top: 50px;\r\n}\r\n .footer{\r\n  margin-top: 50px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBdUI7Q0FDeEI7Q0FDQTtFQUNDLFdBQVc7RUFDWCxtQkFBbUI7RUFDbkIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixpQkFBaUI7QUFDbkI7Q0FDQTtFQUNFLGdCQUFnQjtBQUNsQjtDQUNBO0VBQ0UsZ0JBQWdCO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcclxuICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcclxuIH1cclxuIC5jb250YWluZXItZmx1aWQge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIHBhZGRpbmctcmlnaHQ6IDE1cHg7XHJcbiAgcGFkZGluZy1sZWZ0OiAxNXB4O1xyXG4gIG1hcmdpbi1yaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxufVxyXG4ubWFpbntcclxuICBtYXJnaW4tdG9wOiA1MHB4O1xyXG59XHJcbi5mb290ZXJ7XHJcbiAgbWFyZ2luLXRvcDogNTBweDtcclxufVxyXG4iXX0= */"
+module.exports = "* {\r\n  font-family: sans-serif;\r\n }\r\n .container-fluid {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\r\n}\r\n .main{\r\n  margin-top: 50px;\r\n /* box-shadow: 4px 3px 9px #9c9c9c;\r\n  border-radius: 10px;*/\r\n}\r\n .footer{\r\n  margin-top: 50px;\r\n}\r\n img{\r\n\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    width: 5%;\r\n\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBdUI7Q0FDeEI7Q0FDQTtFQUNDLFdBQVc7RUFDWCxtQkFBbUI7RUFDbkIsa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixpQkFBaUI7QUFDbkI7Q0FDQTtFQUNFLGdCQUFnQjtDQUNqQjt1QkFDc0I7QUFDdkI7Q0FDQTtFQUNFLGdCQUFnQjtBQUNsQjtDQUNBOztJQUVJLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLFNBQVM7O0FBRWIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xyXG4gfVxyXG4gLmNvbnRhaW5lci1mbHVpZCB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgcGFkZGluZy1yaWdodDogMTVweDtcclxuICBwYWRkaW5nLWxlZnQ6IDE1cHg7XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG59XHJcbi5tYWlue1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAvKiBib3gtc2hhZG93OiA0cHggM3B4IDlweCAjOWM5YzljO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7Ki9cclxufVxyXG4uZm9vdGVye1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbn1cclxuaW1ne1xyXG5cclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgICB3aWR0aDogNSU7XHJcblxyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -562,54 +565,58 @@ var AppComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _pages_seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.services */ "./src/app/pages/seminars/instructors/instructors.services.ts");
-/* harmony import */ var _pages_login_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/login/auth.service */ "./src/app/pages/login/auth.service.ts");
-/* harmony import */ var _pages_about_us_about_us_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/about-us/about-us.service */ "./src/app/pages/about-us/about-us.service.ts");
-/* harmony import */ var _shared_dropdown_directive__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./shared/dropdown.directive */ "./src/app/shared/dropdown.directive.ts");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm5/ng-bootstrap.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _navbars_header_header_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./navbars/header/header.component */ "./src/app/navbars/header/header.component.ts");
-/* harmony import */ var _navbars_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./navbars/footer/footer.component */ "./src/app/navbars/footer/footer.component.ts");
-/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
-/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
-/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
-/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
-/* harmony import */ var _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/holistic-center/holistic-center.component */ "./src/app/pages/holistic-center/holistic-center.component.ts");
-/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
-/* harmony import */ var _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/seminars/training-course/training-course.component */ "./src/app/pages/seminars/training-course/training-course.component.ts");
-/* harmony import */ var _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/seminars/teaching-program/teaching-program.component */ "./src/app/pages/seminars/teaching-program/teaching-program.component.ts");
-/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
-/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
-/* harmony import */ var _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pages/seminars/btaa/btaa.component */ "./src/app/pages/seminars/btaa/btaa.component.ts");
-/* harmony import */ var _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/bowen-technique/history/history.component */ "./src/app/pages/bowen-technique/history/history.component.ts");
-/* harmony import */ var _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/bowen-technique/what-is-bowen/what-is-bowen.component */ "./src/app/pages/bowen-technique/what-is-bowen/what-is-bowen.component.ts");
-/* harmony import */ var _pages_bowen_technique_can_bowen_help_can_bowen_help_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./pages/bowen-technique/can-bowen-help/can-bowen-help.component */ "./src/app/pages/bowen-technique/can-bowen-help/can-bowen-help.component.ts");
-/* harmony import */ var _pages_bowen_technique_appearance_treatment_appearance_treatment_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./pages/bowen-technique/appearance-treatment/appearance-treatment.component */ "./src/app/pages/bowen-technique/appearance-treatment/appearance-treatment.component.ts");
-/* harmony import */ var _pages_bowen_technique_how_it_works_how_it_works_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/bowen-technique/how-it-works/how-it-works.component */ "./src/app/pages/bowen-technique/how-it-works/how-it-works.component.ts");
-/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
-/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
-/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
-/* harmony import */ var _pages_holistic_center_treatments_treatments_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./pages/holistic-center/treatments/treatments.component */ "./src/app/pages/holistic-center/treatments/treatments.component.ts");
-/* harmony import */ var _pages_holistic_center_bahov_drops_bahov_drops_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./pages/holistic-center/bahov-drops/bahov-drops.component */ "./src/app/pages/holistic-center/bahov-drops/bahov-drops.component.ts");
-/* harmony import */ var _pages_holistic_center_aqua_detox_aqua_detox_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./pages/holistic-center/aqua-detox/aqua-detox.component */ "./src/app/pages/holistic-center/aqua-detox/aqua-detox.component.ts");
-/* harmony import */ var _pages_holistic_center_reiki_reiki_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./pages/holistic-center/reiki/reiki.component */ "./src/app/pages/holistic-center/reiki/reiki.component.ts");
-/* harmony import */ var _pages_holistic_center_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./pages/holistic-center/rejuvance/rejuvance.component */ "./src/app/pages/holistic-center/rejuvance/rejuvance.component.ts");
-/* harmony import */ var _pages_holistic_center_atlas_atlas_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./pages/holistic-center/atlas/atlas.component */ "./src/app/pages/holistic-center/atlas/atlas.component.ts");
-/* harmony import */ var _pages_about_us_team_members_team_members_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./pages/about-us/team-members/team-members.component */ "./src/app/pages/about-us/team-members/team-members.component.ts");
-/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _pages_quote_quote_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./pages/quote/quote.component */ "./src/app/pages/quote/quote.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _pages_login_login_service__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./pages/login/login.service */ "./src/app/pages/login/login.service.ts");
-/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
-/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
-/* harmony import */ var _pages_seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/seminars.service */ "./src/app/pages/seminars/upcoming-seminars/seminars.service.ts");
-/* harmony import */ var _pages_login_admin_seminar_seminar_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./pages/login/admin/seminar/seminar.component */ "./src/app/pages/login/admin/seminar/seminar.component.ts");
-/* harmony import */ var _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./pages/login/admin/instructor/instructor.component */ "./src/app/pages/login/admin/instructor/instructor.component.ts");
+/* harmony import */ var _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared/server-url.services */ "./src/app/shared/server-url.services.ts");
+/* harmony import */ var _pages_news_video_video_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/news/video/video.service */ "./src/app/pages/news/video/video.service.ts");
+/* harmony import */ var _pages_seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.services */ "./src/app/pages/seminars/instructors/instructors.services.ts");
+/* harmony import */ var _pages_login_auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/login/auth.service */ "./src/app/pages/login/auth.service.ts");
+/* harmony import */ var _pages_about_us_about_us_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/about-us/about-us.service */ "./src/app/pages/about-us/about-us.service.ts");
+/* harmony import */ var _shared_dropdown_directive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./shared/dropdown.directive */ "./src/app/shared/dropdown.directive.ts");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm5/ng-bootstrap.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _navbars_header_header_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./navbars/header/header.component */ "./src/app/navbars/header/header.component.ts");
+/* harmony import */ var _navbars_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./navbars/footer/footer.component */ "./src/app/navbars/footer/footer.component.ts");
+/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
+/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
+/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
+/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
+/* harmony import */ var _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/holistic-center/holistic-center.component */ "./src/app/pages/holistic-center/holistic-center.component.ts");
+/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
+/* harmony import */ var _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/seminars/training-course/training-course.component */ "./src/app/pages/seminars/training-course/training-course.component.ts");
+/* harmony import */ var _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/seminars/teaching-program/teaching-program.component */ "./src/app/pages/seminars/teaching-program/teaching-program.component.ts");
+/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
+/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
+/* harmony import */ var _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/seminars/btaa/btaa.component */ "./src/app/pages/seminars/btaa/btaa.component.ts");
+/* harmony import */ var _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./pages/bowen-technique/history/history.component */ "./src/app/pages/bowen-technique/history/history.component.ts");
+/* harmony import */ var _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./pages/bowen-technique/what-is-bowen/what-is-bowen.component */ "./src/app/pages/bowen-technique/what-is-bowen/what-is-bowen.component.ts");
+/* harmony import */ var _pages_bowen_technique_can_bowen_help_can_bowen_help_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/bowen-technique/can-bowen-help/can-bowen-help.component */ "./src/app/pages/bowen-technique/can-bowen-help/can-bowen-help.component.ts");
+/* harmony import */ var _pages_bowen_technique_appearance_treatment_appearance_treatment_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./pages/bowen-technique/appearance-treatment/appearance-treatment.component */ "./src/app/pages/bowen-technique/appearance-treatment/appearance-treatment.component.ts");
+/* harmony import */ var _pages_bowen_technique_how_it_works_how_it_works_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pages/bowen-technique/how-it-works/how-it-works.component */ "./src/app/pages/bowen-technique/how-it-works/how-it-works.component.ts");
+/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
+/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
+/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
+/* harmony import */ var _pages_holistic_center_treatments_treatments_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./pages/holistic-center/treatments/treatments.component */ "./src/app/pages/holistic-center/treatments/treatments.component.ts");
+/* harmony import */ var _pages_holistic_center_bahov_drops_bahov_drops_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./pages/holistic-center/bahov-drops/bahov-drops.component */ "./src/app/pages/holistic-center/bahov-drops/bahov-drops.component.ts");
+/* harmony import */ var _pages_holistic_center_aqua_detox_aqua_detox_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./pages/holistic-center/aqua-detox/aqua-detox.component */ "./src/app/pages/holistic-center/aqua-detox/aqua-detox.component.ts");
+/* harmony import */ var _pages_holistic_center_reiki_reiki_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./pages/holistic-center/reiki/reiki.component */ "./src/app/pages/holistic-center/reiki/reiki.component.ts");
+/* harmony import */ var _pages_holistic_center_atlas_atlas_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./pages/holistic-center/atlas/atlas.component */ "./src/app/pages/holistic-center/atlas/atlas.component.ts");
+/* harmony import */ var _pages_about_us_team_members_team_members_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./pages/about-us/team-members/team-members.component */ "./src/app/pages/about-us/team-members/team-members.component.ts");
+/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _pages_quote_quote_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./pages/quote/quote.component */ "./src/app/pages/quote/quote.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _pages_login_login_service__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./pages/login/login.service */ "./src/app/pages/login/login.service.ts");
+/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
+/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
+/* harmony import */ var _pages_seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/seminars.service */ "./src/app/pages/seminars/upcoming-seminars/seminars.service.ts");
+/* harmony import */ var _pages_login_admin_seminar_seminar_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./pages/login/admin/seminar/seminar.component */ "./src/app/pages/login/admin/seminar/seminar.component.ts");
+/* harmony import */ var _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./pages/login/admin/instructor/instructor.component */ "./src/app/pages/login/admin/instructor/instructor.component.ts");
+/* harmony import */ var _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./pages/rejuvance/rejuvance.component */ "./src/app/pages/rejuvance/rejuvance.component.ts");
+
+
 
 
 
@@ -663,55 +670,55 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_7__["NgModule"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_9__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
-                _navbars_header_header_component__WEBPACK_IMPORTED_MODULE_11__["HeaderComponent"],
-                _navbars_footer_footer_component__WEBPACK_IMPORTED_MODULE_12__["FooterComponent"],
-                _pages_index_index_component__WEBPACK_IMPORTED_MODULE_13__["IndexComponent"],
-                _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_14__["BowenTechniqueComponent"],
-                _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_15__["SeminarsComponent"],
-                _pages_news_news_component__WEBPACK_IMPORTED_MODULE_16__["NewsComponent"],
-                _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_17__["HolisticCenterComponent"],
-                _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_18__["AboutUsComponent"],
-                _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_19__["TrainingCourseComponent"],
-                _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_20__["TeachingProgramComponent"],
-                _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_21__["UpcomingSeminarsComponent"],
-                _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_22__["InstructorsComponent"],
-                _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_23__["BtaaComponent"],
-                _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_24__["HistoryComponent"],
-                _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_25__["WhatIsBowenComponent"],
-                _pages_bowen_technique_can_bowen_help_can_bowen_help_component__WEBPACK_IMPORTED_MODULE_26__["CanBowenHelpComponent"],
-                _pages_bowen_technique_appearance_treatment_appearance_treatment_component__WEBPACK_IMPORTED_MODULE_27__["AppearanceTreatmentComponent"],
-                _pages_bowen_technique_how_it_works_how_it_works_component__WEBPACK_IMPORTED_MODULE_28__["HowItWorksComponent"],
-                _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_29__["EventsComponent"],
-                _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_30__["PublicationsComponent"],
-                _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_31__["VideoComponent"],
-                _pages_holistic_center_treatments_treatments_component__WEBPACK_IMPORTED_MODULE_32__["TreatmentsComponent"],
-                _pages_holistic_center_bahov_drops_bahov_drops_component__WEBPACK_IMPORTED_MODULE_33__["BahovDropsComponent"],
-                _pages_holistic_center_aqua_detox_aqua_detox_component__WEBPACK_IMPORTED_MODULE_34__["AquaDetoxComponent"],
-                _pages_holistic_center_reiki_reiki_component__WEBPACK_IMPORTED_MODULE_35__["ReikiComponent"],
-                _pages_holistic_center_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_36__["RejuvanceComponent"],
-                _pages_holistic_center_atlas_atlas_component__WEBPACK_IMPORTED_MODULE_37__["AtlasComponent"],
-                _shared_dropdown_directive__WEBPACK_IMPORTED_MODULE_4__["DropdownDirective"],
-                _pages_about_us_team_members_team_members_component__WEBPACK_IMPORTED_MODULE_38__["TeamMembersComponent"],
-                _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_39__["ContactComponent"],
-                _pages_quote_quote_component__WEBPACK_IMPORTED_MODULE_41__["QuoteComponent"],
-                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_42__["LoginComponent"],
-                _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_44__["AdminComponent"],
-                _pages_login_admin_seminar_seminar_component__WEBPACK_IMPORTED_MODULE_47__["SeminarComponent"],
-                _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_48__["InstructorComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
+                _navbars_header_header_component__WEBPACK_IMPORTED_MODULE_13__["HeaderComponent"],
+                _navbars_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"],
+                _pages_index_index_component__WEBPACK_IMPORTED_MODULE_15__["IndexComponent"],
+                _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_16__["BowenTechniqueComponent"],
+                _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_17__["SeminarsComponent"],
+                _pages_news_news_component__WEBPACK_IMPORTED_MODULE_18__["NewsComponent"],
+                _pages_holistic_center_holistic_center_component__WEBPACK_IMPORTED_MODULE_19__["HolisticCenterComponent"],
+                _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__["AboutUsComponent"],
+                _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_21__["TrainingCourseComponent"],
+                _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_22__["TeachingProgramComponent"],
+                _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_23__["UpcomingSeminarsComponent"],
+                _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_24__["InstructorsComponent"],
+                _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_25__["BtaaComponent"],
+                _pages_bowen_technique_history_history_component__WEBPACK_IMPORTED_MODULE_26__["HistoryComponent"],
+                _pages_bowen_technique_what_is_bowen_what_is_bowen_component__WEBPACK_IMPORTED_MODULE_27__["WhatIsBowenComponent"],
+                _pages_bowen_technique_can_bowen_help_can_bowen_help_component__WEBPACK_IMPORTED_MODULE_28__["CanBowenHelpComponent"],
+                _pages_bowen_technique_appearance_treatment_appearance_treatment_component__WEBPACK_IMPORTED_MODULE_29__["AppearanceTreatmentComponent"],
+                _pages_bowen_technique_how_it_works_how_it_works_component__WEBPACK_IMPORTED_MODULE_30__["HowItWorksComponent"],
+                _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_31__["EventsComponent"],
+                _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_32__["PublicationsComponent"],
+                _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_33__["VideoComponent"],
+                _pages_holistic_center_treatments_treatments_component__WEBPACK_IMPORTED_MODULE_34__["TreatmentsComponent"],
+                _pages_holistic_center_bahov_drops_bahov_drops_component__WEBPACK_IMPORTED_MODULE_35__["BahovDropsComponent"],
+                _pages_holistic_center_aqua_detox_aqua_detox_component__WEBPACK_IMPORTED_MODULE_36__["AquaDetoxComponent"],
+                _pages_holistic_center_reiki_reiki_component__WEBPACK_IMPORTED_MODULE_37__["ReikiComponent"],
+                _pages_holistic_center_atlas_atlas_component__WEBPACK_IMPORTED_MODULE_38__["AtlasComponent"],
+                _shared_dropdown_directive__WEBPACK_IMPORTED_MODULE_6__["DropdownDirective"],
+                _pages_about_us_team_members_team_members_component__WEBPACK_IMPORTED_MODULE_39__["TeamMembersComponent"],
+                _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_40__["ContactComponent"],
+                _pages_quote_quote_component__WEBPACK_IMPORTED_MODULE_42__["QuoteComponent"],
+                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_43__["LoginComponent"],
+                _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_45__["AdminComponent"],
+                _pages_login_admin_seminar_seminar_component__WEBPACK_IMPORTED_MODULE_48__["SeminarComponent"],
+                _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_49__["InstructorComponent"],
+                _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_50__["RejuvanceComponent"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_6__["BrowserModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ReactiveFormsModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_40__["HttpClientModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_9__["FormsModule"]
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__["BrowserModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_10__["NgbModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_11__["ReactiveFormsModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_41__["HttpClientModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_11__["FormsModule"]
             ],
-            providers: [_pages_about_us_about_us_service__WEBPACK_IMPORTED_MODULE_3__["AboutUsServices"], _pages_login_login_service__WEBPACK_IMPORTED_MODULE_43__["LoginServices"], _pages_seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_46__["SeminarsServices"], _pages_login_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"], _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_45__["AuthGuard"], _pages_seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_1__["InstructorsServices"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
+            providers: [_pages_about_us_about_us_service__WEBPACK_IMPORTED_MODULE_5__["AboutUsServices"], _pages_login_login_service__WEBPACK_IMPORTED_MODULE_44__["LoginServices"], _pages_seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_47__["SeminarsServices"], _pages_login_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"], _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_46__["AuthGuard"], _pages_seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_3__["InstructorsServices"], _pages_news_video_video_service__WEBPACK_IMPORTED_MODULE_2__["VideoServices"], _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__["ServerUrlServices"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -772,7 +779,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".logo{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 75%;\r\n}\r\n.smallLogo{\r\n  display: block;\r\n  width: 15%;\r\n}\r\n#header {\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 15px 0 15px 0;\r\n  list-style: none;\r\n  background-color: #111;\r\n  background-image: linear-gradient(#b9b3b7, #ffffff, #b9b3b7);\r\n  border-radius: 10px;\r\n  box-shadow: 4px 3px 9px #9c9c9c;\r\n}\r\n.nav-item a {\r\n color: black;\r\n font-size: 20px;\r\n\r\n font-weight: 600;\r\n}\r\n.info {\r\n  text-align:  center;\r\n}\r\n.fab {\r\n  color: #9c9c9c;\r\n}\r\n.active {\r\n  color: #111;\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n\r\n}\r\n.nav-pills .nav-link.active, .nav-pills .show > .nav-link {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-link{\r\n  display: inline;\r\n}\r\nnav a ::before{\r\n  border-color: #006837;\r\n}\r\n.navbar-collapse li {\r\n\r\n  border-right: 1px solid #000;\r\n  position: relative;\r\n  margin: 10px 0px 10px 0px;\r\n}\r\n.navbar-collapse li:last-child {\r\n\r\n  border: none;\r\n}\r\n.dropdown-menu{\r\n  left: 10px;\r\n  top:  38px;\r\n  moz-transition:    all 1800ms ease;\r\n  transition:         all 1800ms ease;\r\n}\r\n.navbar-collapse>ul>li{\r\n  padding: 4px 10px 18px  10px;\r\n}\r\n.logo-normal img {\r\n\tposition: absolute;\r\n\ttransition: opacity 0.3s ease;\r\n\tmargin-top: -20px !important;\r\n}\r\n.logo-normal {\r\n\topacity: 1;\r\n}\r\n.nav-logo{\r\n  opacity: 0;\r\n  width: 110px;\r\n  height: auto;\r\n  margin-left: 5px;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7QUFDQTtFQUNFLGNBQWM7RUFDZCxVQUFVO0FBQ1o7QUFFQTtFQUNFLFdBQVc7RUFDWCxTQUFTO0VBQ1Qsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQixzQkFBc0I7RUFDdEIsNERBQTREO0VBQzVELG1CQUFtQjtFQUNuQiwrQkFBK0I7QUFDakM7QUFDQTtDQUNDLFlBQVk7Q0FDWixlQUFlOztDQUVmLGdCQUFnQjtBQUNqQjtBQUNBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCOztBQUUvQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLGNBQWM7RUFDZCxnQ0FBZ0M7RUFDaEMsZ0JBQWdCO0VBQ2hCLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGVBQWU7QUFDakI7QUFDQTtFQUNFLHFCQUFxQjtBQUN2QjtBQUNBOztFQUVFLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIseUJBQXlCO0FBQzNCO0FBQ0E7O0VBRUUsWUFBWTtBQUNkO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsVUFBVTtFQUNWLGtDQUFrQztFQUlsQyxtQ0FBbUM7QUFDckM7QUFFQTtFQUNFLDRCQUE0QjtBQUM5QjtBQUVBO0NBQ0Msa0JBQWtCO0NBR2xCLDZCQUE2QjtDQUM3Qiw0QkFBNEI7QUFDN0I7QUFFQTtDQUNDLFVBQVU7QUFDWDtBQUNBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7RUFDWixZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nb3tcclxuICBkaXNwbGF5OiBibG9jaztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxuICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgd2lkdGg6IDc1JTtcclxufVxyXG4uc21hbGxMb2dve1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIHdpZHRoOiAxNSU7XHJcbn1cclxuXHJcbiNoZWFkZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAxNXB4IDAgMTVweCAwO1xyXG4gIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzExMTtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoI2I5YjNiNywgI2ZmZmZmZiwgI2I5YjNiNyk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBib3gtc2hhZG93OiA0cHggM3B4IDlweCAjOWM5YzljO1xyXG59XHJcbi5uYXYtaXRlbSBhIHtcclxuIGNvbG9yOiBibGFjaztcclxuIGZvbnQtc2l6ZTogMjBweDtcclxuXHJcbiBmb250LXdlaWdodDogNjAwO1xyXG59XHJcbi5pbmZvIHtcclxuICB0ZXh0LWFsaWduOiAgY2VudGVyO1xyXG59XHJcbi5mYWIge1xyXG4gIGNvbG9yOiAjOWM5YzljO1xyXG59XHJcbi5hY3RpdmUge1xyXG4gIGNvbG9yOiAjMTExO1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoIzAwNjgzNywgI2I0ZTYyNSwgIzNhYjU0YSk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBib3gtc2hhZG93OiAwIDJweCAxcHggIzljOWM5YztcclxuXHJcbn1cclxuLm5hdi1waWxscyAubmF2LWxpbmsuYWN0aXZlLCAubmF2LXBpbGxzIC5zaG93ID4gLm5hdi1saW5rIHtcclxuICBib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KCMwMDY4MzcsICNiNGU2MjUsICMzYWI1NGEpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgYm94LXNoYWRvdzogMCAycHggMXB4ICM5YzljOWM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1zaGFkb3c6IDEuNXB4IDFweCAxcHggYmxhY2s7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBmb250LXN0eWxlOiBpdGFsaWM7XHJcblxyXG59XHJcblxyXG4ubmF2LWxpbmt7XHJcbiAgZGlzcGxheTogaW5saW5lO1xyXG59XHJcbm5hdiBhIDo6YmVmb3Jle1xyXG4gIGJvcmRlci1jb2xvcjogIzAwNjgzNztcclxufVxyXG4ubmF2YmFyLWNvbGxhcHNlIGxpIHtcclxuXHJcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgIzAwMDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgbWFyZ2luOiAxMHB4IDBweCAxMHB4IDBweDtcclxufVxyXG4ubmF2YmFyLWNvbGxhcHNlIGxpOmxhc3QtY2hpbGQge1xyXG5cclxuICBib3JkZXI6IG5vbmU7XHJcbn1cclxuLmRyb3Bkb3duLW1lbnV7XHJcbiAgbGVmdDogMTBweDtcclxuICB0b3A6ICAzOHB4O1xyXG4gIG1vei10cmFuc2l0aW9uOiAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW8tdHJhbnNpdGlvbjogICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW1zLXRyYW5zaXRpb246ICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgdHJhbnNpdGlvbjogICAgICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbn1cclxuXHJcbi5uYXZiYXItY29sbGFwc2U+dWw+bGl7XHJcbiAgcGFkZGluZzogNHB4IDEwcHggMThweCAgMTBweDtcclxufVxyXG5cclxuLmxvZ28tbm9ybWFsIGltZyB7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzIGVhc2U7XHJcblx0LW1vei10cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHR0cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHRtYXJnaW4tdG9wOiAtMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubG9nby1ub3JtYWwge1xyXG5cdG9wYWNpdHk6IDE7XHJcbn1cclxuLm5hdi1sb2dve1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgd2lkdGg6IDExMHB4O1xyXG4gIGhlaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogNXB4O1xyXG59XHJcblxyXG4iXX0= */"
+module.exports = ".logo{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 80%;\r\n}\r\n.smallLogo{\r\n  display: block;\r\n  width: 15%;\r\n}\r\n#header {\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 15px 0 15px 0;\r\n  list-style: none;\r\n  background-color: #111;\r\n  background-image: linear-gradient(#b9b3b7, #ffffff, #b9b3b7);\r\n  border-radius: 10px;\r\n  box-shadow: 4px 3px 9px #9c9c9c;\r\n}\r\n.nav-item a {\r\n color: black;\r\n font-size: 20px;\r\n\r\n font-weight: 600;\r\n}\r\n.info {\r\n  text-align:  center;\r\n}\r\n.fab {\r\n  color: #9c9c9c;\r\n}\r\n.active {\r\n  color: #111;\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n\r\n}\r\n.nav-pills .nav-link.active, .nav-pills .show > .nav-link {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-link{\r\n  display: inline;\r\n}\r\nnav a ::before{\r\n  border-color: #006837;\r\n}\r\n.navbar-collapse li {\r\n\r\n  border-right: 1px solid #000;\r\n  position: relative;\r\n  margin: 10px 0px 10px 0px;\r\n}\r\n.navbar-collapse li:last-child {\r\n\r\n  border: none;\r\n}\r\n.dropdown-menu{\r\n  left: 10px;\r\n  top:  38px;\r\n  moz-transition:    all 1800ms ease;\r\n  transition:         all 1800ms ease;\r\n}\r\n.navbar-collapse>ul>li{\r\n  padding: 4px 10px 18px  10px;\r\n}\r\n.logo-normal img {\r\n\tposition: absolute;\r\n\ttransition: opacity 0.3s ease;\r\n\tmargin-top: -20px !important;\r\n}\r\n.logo-normal {\r\n\topacity: 1;\r\n}\r\n.nav-logo{\r\n  opacity: 0;\r\n  width: 110px;\r\n  height: auto;\r\n  margin-left: 5px;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7QUFDQTtFQUNFLGNBQWM7RUFDZCxVQUFVO0FBQ1o7QUFFQTtFQUNFLFdBQVc7RUFDWCxTQUFTO0VBQ1Qsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQixzQkFBc0I7RUFDdEIsNERBQTREO0VBQzVELG1CQUFtQjtFQUNuQiwrQkFBK0I7QUFDakM7QUFDQTtDQUNDLFlBQVk7Q0FDWixlQUFlOztDQUVmLGdCQUFnQjtBQUNqQjtBQUNBO0VBQ0UsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCOztBQUUvQjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLGNBQWM7RUFDZCxnQ0FBZ0M7RUFDaEMsZ0JBQWdCO0VBQ2hCLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGVBQWU7QUFDakI7QUFDQTtFQUNFLHFCQUFxQjtBQUN2QjtBQUNBOztFQUVFLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIseUJBQXlCO0FBQzNCO0FBQ0E7O0VBRUUsWUFBWTtBQUNkO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsVUFBVTtFQUNWLGtDQUFrQztFQUlsQyxtQ0FBbUM7QUFDckM7QUFFQTtFQUNFLDRCQUE0QjtBQUM5QjtBQUVBO0NBQ0Msa0JBQWtCO0NBR2xCLDZCQUE2QjtDQUM3Qiw0QkFBNEI7QUFDN0I7QUFFQTtDQUNDLFVBQVU7QUFDWDtBQUNBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7RUFDWixZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nb3tcclxuICBkaXNwbGF5OiBibG9jaztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxuICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgd2lkdGg6IDgwJTtcclxufVxyXG4uc21hbGxMb2dve1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIHdpZHRoOiAxNSU7XHJcbn1cclxuXHJcbiNoZWFkZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAxNXB4IDAgMTVweCAwO1xyXG4gIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzExMTtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoI2I5YjNiNywgI2ZmZmZmZiwgI2I5YjNiNyk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBib3gtc2hhZG93OiA0cHggM3B4IDlweCAjOWM5YzljO1xyXG59XHJcbi5uYXYtaXRlbSBhIHtcclxuIGNvbG9yOiBibGFjaztcclxuIGZvbnQtc2l6ZTogMjBweDtcclxuXHJcbiBmb250LXdlaWdodDogNjAwO1xyXG59XHJcbi5pbmZvIHtcclxuICB0ZXh0LWFsaWduOiAgY2VudGVyO1xyXG59XHJcbi5mYWIge1xyXG4gIGNvbG9yOiAjOWM5YzljO1xyXG59XHJcbi5hY3RpdmUge1xyXG4gIGNvbG9yOiAjMTExO1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoIzAwNjgzNywgI2I0ZTYyNSwgIzNhYjU0YSk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBib3gtc2hhZG93OiAwIDJweCAxcHggIzljOWM5YztcclxuXHJcbn1cclxuLm5hdi1waWxscyAubmF2LWxpbmsuYWN0aXZlLCAubmF2LXBpbGxzIC5zaG93ID4gLm5hdi1saW5rIHtcclxuICBib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KCMwMDY4MzcsICNiNGU2MjUsICMzYWI1NGEpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgYm94LXNoYWRvdzogMCAycHggMXB4ICM5YzljOWM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1zaGFkb3c6IDEuNXB4IDFweCAxcHggYmxhY2s7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBmb250LXN0eWxlOiBpdGFsaWM7XHJcblxyXG59XHJcblxyXG4ubmF2LWxpbmt7XHJcbiAgZGlzcGxheTogaW5saW5lO1xyXG59XHJcbm5hdiBhIDo6YmVmb3Jle1xyXG4gIGJvcmRlci1jb2xvcjogIzAwNjgzNztcclxufVxyXG4ubmF2YmFyLWNvbGxhcHNlIGxpIHtcclxuXHJcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgIzAwMDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgbWFyZ2luOiAxMHB4IDBweCAxMHB4IDBweDtcclxufVxyXG4ubmF2YmFyLWNvbGxhcHNlIGxpOmxhc3QtY2hpbGQge1xyXG5cclxuICBib3JkZXI6IG5vbmU7XHJcbn1cclxuLmRyb3Bkb3duLW1lbnV7XHJcbiAgbGVmdDogMTBweDtcclxuICB0b3A6ICAzOHB4O1xyXG4gIG1vei10cmFuc2l0aW9uOiAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW8tdHJhbnNpdGlvbjogICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW1zLXRyYW5zaXRpb246ICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgdHJhbnNpdGlvbjogICAgICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbn1cclxuXHJcbi5uYXZiYXItY29sbGFwc2U+dWw+bGl7XHJcbiAgcGFkZGluZzogNHB4IDEwcHggMThweCAgMTBweDtcclxufVxyXG5cclxuLmxvZ28tbm9ybWFsIGltZyB7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzIGVhc2U7XHJcblx0LW1vei10cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHR0cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHRtYXJnaW4tdG9wOiAtMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubG9nby1ub3JtYWwge1xyXG5cdG9wYWNpdHk6IDE7XHJcbn1cclxuLm5hdi1sb2dve1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgd2lkdGg6IDExMHB4O1xyXG4gIGhlaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogNXB4O1xyXG59XHJcblxyXG4iXX0= */"
 
 /***/ }),
 
@@ -1086,7 +1093,7 @@ var AppearanceTreatmentComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Jvd2VuLXRlY2huaXF1ZS9ib3dlbi10ZWNobmlxdWUuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = ".card {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 0;\r\n  word-wrap: break-word;\r\n  background-color: #fff;\r\n  background-clip: border-box;\r\n  border: 1px solid rgba(0, 0, 0, 0.125);\r\n  border-radius: 0.25rem;\r\n  cursor: pointer;\r\n  clear: both;\r\n  padding: 5px 15px;\r\n  background-image: linear-gradient(to right, #20950d, #57ba2f);\r\n  border-bottom: 1px solid #B4B5B4;\r\n  border-right: 1px solid #B4B5B4;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n\r\n}\r\n\r\n.card p {\r\n  margin-top: 0.5rem;\r\n  margin-bottom: 0.5rem;\r\n  font-size: 25px;\r\n  font-style: italic;\r\n  font-weight: 600;\r\n  color: white;\r\n  text-shadow: 1.5px 1px 1px black;\r\n}\r\n\r\n.card-body {\r\n  flex: 1 1 auto;\r\n  padding: 0.25rem;\r\n  border: 1px solid rgba(0, 0, 0, 0.125);\r\n  border-radius: 0.25rem;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n}\r\n\r\n.arrow{\r\n  text-align: right;\r\n  padding-top: 0.7rem;\r\n  padding-bottom: 0.5rem;\r\n  color: white;\r\n  text-shadow: 1.5px 1px 1px black;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYm93ZW4tdGVjaG5pcXVlL2Jvd2VuLXRlY2huaXF1ZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLHFCQUFxQjtFQUNyQixzQkFBc0I7RUFDdEIsMkJBQTJCO0VBQzNCLHNDQUFzQztFQUN0QyxzQkFBc0I7RUFDdEIsZUFBZTtFQUNmLFdBQVc7RUFDWCxpQkFBaUI7RUFDakIsNkRBQTZEO0VBQzdELGdDQUFnQztFQUNoQywrQkFBK0I7RUFDL0IsNkJBQTZCOztBQUUvQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixnQkFBZ0I7RUFDaEIsWUFBWTtFQUNaLGdDQUFnQztBQUNsQzs7QUFDQTtFQUNFLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsc0NBQXNDO0VBQ3RDLHNCQUFzQjtFQUN0Qiw2QkFBNkI7QUFDL0I7O0FBQ0E7RUFDRSxpQkFBaUI7RUFDakIsbUJBQW1CO0VBQ25CLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osZ0NBQWdDO0FBQ2xDIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYm93ZW4tdGVjaG5pcXVlL2Jvd2VuLXRlY2huaXF1ZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhcmQge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgbWluLXdpZHRoOiAwO1xyXG4gIHdvcmQtd3JhcDogYnJlYWstd29yZDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gIGJhY2tncm91bmQtY2xpcDogYm9yZGVyLWJveDtcclxuICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuMTI1KTtcclxuICBib3JkZXItcmFkaXVzOiAwLjI1cmVtO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBjbGVhcjogYm90aDtcclxuICBwYWRkaW5nOiA1cHggMTVweDtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsICMyMDk1MGQsICM1N2JhMmYpO1xyXG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjQjRCNUI0O1xyXG4gIGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNCNEI1QjQ7XHJcbiAgYm94LXNoYWRvdzogMCAycHggMXB4ICM5YzljOWM7XHJcblxyXG59XHJcblxyXG4uY2FyZCBwIHtcclxuICBtYXJnaW4tdG9wOiAwLjVyZW07XHJcbiAgbWFyZ2luLWJvdHRvbTogMC41cmVtO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgdGV4dC1zaGFkb3c6IDEuNXB4IDFweCAxcHggYmxhY2s7XHJcbn1cclxuLmNhcmQtYm9keSB7XHJcbiAgZmxleDogMSAxIGF1dG87XHJcbiAgcGFkZGluZzogMC4yNXJlbTtcclxuICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuMTI1KTtcclxuICBib3JkZXItcmFkaXVzOiAwLjI1cmVtO1xyXG4gIGJveC1zaGFkb3c6IDAgMnB4IDFweCAjOWM5YzljO1xyXG59XHJcbi5hcnJvd3tcclxuICB0ZXh0LWFsaWduOiByaWdodDtcclxuICBwYWRkaW5nLXRvcDogMC43cmVtO1xyXG4gIHBhZGRpbmctYm90dG9tOiAwLjVyZW07XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHRleHQtc2hhZG93OiAxLjVweCAxcHggMXB4IGJsYWNrO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -1106,6 +1113,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var BowenTechniqueComponent = /** @class */ (function () {
     function BowenTechniqueComponent() {
+        this.isVisibleSection1 = false;
+        this.isVisibleSection2 = false;
+        this.isVisibleSection3 = false;
+        this.isVisibleSection4 = false;
+        this.isVisibleSection5 = false;
     }
     BowenTechniqueComponent.prototype.ngOnInit = function () {
     };
@@ -1569,50 +1581,6 @@ var ReikiComponent = /** @class */ (function () {
         })
     ], ReikiComponent);
     return ReikiComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/pages/holistic-center/rejuvance/rejuvance.component.css":
-/*!*************************************************************************!*\
-  !*** ./src/app/pages/holistic-center/rejuvance/rejuvance.component.css ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2hvbGlzdGljLWNlbnRlci9yZWp1dmFuY2UvcmVqdXZhbmNlLmNvbXBvbmVudC5jc3MifQ== */"
-
-/***/ }),
-
-/***/ "./src/app/pages/holistic-center/rejuvance/rejuvance.component.ts":
-/*!************************************************************************!*\
-  !*** ./src/app/pages/holistic-center/rejuvance/rejuvance.component.ts ***!
-  \************************************************************************/
-/*! exports provided: RejuvanceComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejuvanceComponent", function() { return RejuvanceComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var RejuvanceComponent = /** @class */ (function () {
-    function RejuvanceComponent() {
-    }
-    RejuvanceComponent.prototype.ngOnInit = function () {
-    };
-    RejuvanceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-rejuvance',
-            template: __webpack_require__(/*! raw-loader!./rejuvance.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/holistic-center/rejuvance/rejuvance.component.html"),
-            styles: [__webpack_require__(/*! ./rejuvance.component.css */ "./src/app/pages/holistic-center/rejuvance/rejuvance.component.css")]
-        })
-    ], RejuvanceComponent);
-    return RejuvanceComponent;
 }());
 
 
@@ -2398,7 +2366,7 @@ var NewsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL25ld3MvcHVibGljYXRpb25zL3B1YmxpY2F0aW9ucy5jb21wb25lbnQuY3NzIn0= */"
+module.exports = ".pdf-files{\r\n  width: 100%;\r\n  height:1000px;\r\n}\r\n.card {\r\n  position: relative;\r\n  display: flex;\r\n  flex-direction: column;\r\n  min-width: 0;\r\n  word-wrap: break-word;\r\n  background-color: #fff;\r\n  background-clip: border-box;\r\n  border: 1px solid rgba(0, 0, 0, 0.125);\r\n  border-radius: 0.25rem;\r\n  cursor: pointer;\r\n  clear: both;\r\n  padding: 5px 15px;\r\n  background-image: linear-gradient(to right, #20950d, #57ba2f);\r\n  border-bottom: 1px solid #B4B5B4;\r\n  border-right: 1px solid #B4B5B4;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n\r\n}\r\n.card p {\r\n  margin-top: 0.5rem;\r\n  margin-bottom: 0.5rem;\r\n  font-size: 25px;\r\n  font-style: italic;\r\n  font-weight: 600;\r\n  color: white;\r\n  text-shadow: 1.5px 1px 1px black;\r\n}\r\n.card-body {\r\n  flex: 1 1 auto;\r\n  padding: 0.25rem;\r\n}\r\n.arrow{\r\n  text-align: right;\r\n  padding-top: 0.7rem;\r\n  padding-bottom: 0.5rem;\r\n  color: white;\r\n  text-shadow: 1.5px 1px 1px black;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbmV3cy9wdWJsaWNhdGlvbnMvcHVibGljYXRpb25zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1oscUJBQXFCO0VBQ3JCLHNCQUFzQjtFQUN0QiwyQkFBMkI7RUFDM0Isc0NBQXNDO0VBQ3RDLHNCQUFzQjtFQUN0QixlQUFlO0VBQ2YsV0FBVztFQUNYLGlCQUFpQjtFQUNqQiw2REFBNkQ7RUFDN0QsZ0NBQWdDO0VBQ2hDLCtCQUErQjtFQUMvQiw2QkFBNkI7O0FBRS9CO0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLFlBQVk7RUFDWixnQ0FBZ0M7QUFDbEM7QUFDQTtFQUNFLGNBQWM7RUFDZCxnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLGlCQUFpQjtFQUNqQixtQkFBbUI7RUFDbkIsc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWixnQ0FBZ0M7QUFDbEMiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9uZXdzL3B1YmxpY2F0aW9ucy9wdWJsaWNhdGlvbnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wZGYtZmlsZXN7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OjEwMDBweDtcclxufVxyXG4uY2FyZCB7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBtaW4td2lkdGg6IDA7XHJcbiAgd29yZC13cmFwOiBicmVhay13b3JkO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgYmFja2dyb3VuZC1jbGlwOiBib3JkZXItYm94O1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwgMCwgMCwgMC4xMjUpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDAuMjVyZW07XHJcbiAgY3Vyc29yOiBwb2ludGVyO1xyXG4gIGNsZWFyOiBib3RoO1xyXG4gIHBhZGRpbmc6IDVweCAxNXB4O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgIzIwOTUwZCwgIzU3YmEyZik7XHJcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNCNEI1QjQ7XHJcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI0I0QjVCNDtcclxuICBib3gtc2hhZG93OiAwIDJweCAxcHggIzljOWM5YztcclxuXHJcbn1cclxuXHJcbi5jYXJkIHAge1xyXG4gIG1hcmdpbi10b3A6IDAuNXJlbTtcclxuICBtYXJnaW4tYm90dG9tOiAwLjVyZW07XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICBmb250LXdlaWdodDogNjAwO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICB0ZXh0LXNoYWRvdzogMS41cHggMXB4IDFweCBibGFjaztcclxufVxyXG4uY2FyZC1ib2R5IHtcclxuICBmbGV4OiAxIDEgYXV0bztcclxuICBwYWRkaW5nOiAwLjI1cmVtO1xyXG59XHJcbi5hcnJvd3tcclxuICB0ZXh0LWFsaWduOiByaWdodDtcclxuICBwYWRkaW5nLXRvcDogMC43cmVtO1xyXG4gIHBhZGRpbmctYm90dG9tOiAwLjVyZW07XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIHRleHQtc2hhZG93OiAxLjVweCAxcHggMXB4IGJsYWNrO1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -2413,16 +2381,35 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PublicationsComponent", function() { return PublicationsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _shared_server_url_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../shared/server-url.services */ "./src/app/shared/server-url.services.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
 
 
 var PublicationsComponent = /** @class */ (function () {
-    function PublicationsComponent() {
+    function PublicationsComponent(serverUrlServices, senitizer) {
+        this.serverUrlServices = serverUrlServices;
+        this.senitizer = senitizer;
+        this.isFirstFileVisible = false;
+        this.isSecondFileVisible = false;
+        this.serverFile1 = '';
+        this.serverFile2 = '';
     }
     PublicationsComponent.prototype.ngOnInit = function () {
+        this.serverFile1 = this.senitizer.bypassSecurityTrustResourceUrl(this.serverUrlServices.serverStorage + 'pdf/zoposa.pdf');
+        this.serverFile2 = this.senitizer.bypassSecurityTrustResourceUrl(this.serverUrlServices.serverStorage + 'pdf/antoniou.pdf');
     };
+    PublicationsComponent.prototype.openNewTab = function () {
+        window.open('https://www.blic.rs/slobodno-vreme/vesti/neobicna-tehnika-koja-pomaze-da-psu-izlecite-povredu-ili-smanjite-agresivnost/17rmfg1', '_blank');
+    };
+    PublicationsComponent.ctorParameters = function () { return [
+        { type: _shared_server_url_services__WEBPACK_IMPORTED_MODULE_2__["ServerUrlServices"] },
+        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["DomSanitizer"] }
+    ]; };
     PublicationsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
             selector: 'app-publications',
             template: __webpack_require__(/*! raw-loader!./publications.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/news/publications/publications.component.html"),
             styles: [__webpack_require__(/*! ./publications.component.css */ "./src/app/pages/news/publications/publications.component.css")]
@@ -2442,7 +2429,7 @@ var PublicationsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL25ld3MvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyJ9 */"
+module.exports = ".video-layout{\r\n  width: 100%;\r\n  height:360px;\r\n  margin-bottom: 20px;\r\n  box-shadow: 0 2px 5px 0 rgba(5, 41, 35, 0.68), 0 2px 10px 0 rgba(0,0,0,.12);\r\n  border-radius: 8px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbmV3cy92aWRlby92aWRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixtQkFBbUI7RUFDbkIsMkVBQTJFO0VBQzNFLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL25ld3MvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi52aWRlby1sYXlvdXR7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OjM2MHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbiAgYm94LXNoYWRvdzogMCAycHggNXB4IDAgcmdiYSg1LCA0MSwgMzUsIDAuNjgpLCAwIDJweCAxMHB4IDAgcmdiYSgwLDAsMCwuMTIpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
@@ -2457,22 +2444,110 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoComponent", function() { return VideoComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _video_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./video.service */ "./src/app/pages/news/video/video.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+
+
 
 
 var VideoComponent = /** @class */ (function () {
-    function VideoComponent() {
+    function VideoComponent(videoServices, senitizer) {
+        this.videoServices = videoServices;
+        this.senitizer = senitizer;
+        this.videos = [];
     }
     VideoComponent.prototype.ngOnInit = function () {
+        this.onGetVideos();
     };
+    VideoComponent.prototype.onGetVideos = function () {
+        var _this = this;
+        this.videoServices.getVideo().subscribe(function (responseData) {
+            _this.videos = responseData;
+            console.log("[mj]-getVideos", _this.videos);
+        });
+    };
+    VideoComponent.prototype.getVideosUrl = function (video) {
+        return this.senitizer.bypassSecurityTrustResourceUrl(video);
+    };
+    VideoComponent.ctorParameters = function () { return [
+        { type: _video_service__WEBPACK_IMPORTED_MODULE_1__["VideoServices"] },
+        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["DomSanitizer"] }
+    ]; };
     VideoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-video',
             template: __webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/news/video/video.component.html"),
             styles: [__webpack_require__(/*! ./video.component.css */ "./src/app/pages/news/video/video.component.css")]
         })
     ], VideoComponent);
     return VideoComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/news/video/video.service.ts":
+/*!***************************************************!*\
+  !*** ./src/app/pages/news/video/video.service.ts ***!
+  \***************************************************/
+/*! exports provided: VideoServices */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoServices", function() { return VideoServices; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
+
+
+
+var VideoServices = /** @class */ (function () {
+    function VideoServices(http) {
+        this.http = http;
+        this.serverApi = 'http://127.0.0.1:8000/api/video';
+    }
+    VideoServices.prototype.getVideo = function () {
+        return this.http.get('http://127.0.0.1:8000/api/videos')
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (responseData) {
+            var postsArray = [];
+            for (var key in responseData.video) {
+                if (responseData.video.hasOwnProperty(key)) {
+                    postsArray.push(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, responseData.video[key], { key: key }));
+                }
+            }
+            console.log("[mj]-GetVIdeoServices", postsArray);
+            return postsArray;
+        }));
+    };
+    VideoServices.prototype.postVideo = function (postData) {
+        console.log("postData", postData);
+        return this.http.post(this.serverApi, postData);
+    };
+    VideoServices.prototype.getEditVideo = function (postData) {
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' });
+        /* const fd = new FormData();
+         fd.append('image', postData.image);
+         fd.append('image_url', postData.image.name);
+         fd.append('name', postData.name);
+         fd.append('content', postData.content);
+         console.log('[mj]-getEditInstructor', fd.has('image'));*/
+        return this.http.put(this.serverApi + '/' + postData.id, postData, { headers: headers });
+    };
+    VideoServices.prototype.deleteVideo = function (id) {
+        return this.http.delete(this.serverApi + '/' + id);
+    };
+    VideoServices.ctorParameters = function () { return [
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+    ]; };
+    VideoServices = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+    ], VideoServices);
+    return VideoServices;
 }());
 
 
@@ -2571,6 +2646,74 @@ var QuoteComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/pages/rejuvance/rejuvance.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/rejuvance/rejuvance.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".logo{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcmVqdXZhbmNlL3JlanV2YW5jZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBYztFQUNkLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvcmVqdXZhbmNlL3JlanV2YW5jZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmxvZ297XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiA1MCU7XHJcbn1cclxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance/rejuvance.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/rejuvance/rejuvance.component.ts ***!
+  \********************************************************/
+/*! exports provided: RejuvanceComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejuvanceComponent", function() { return RejuvanceComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../shared/server-url.services */ "./src/app/shared/server-url.services.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../seminars/upcoming-seminars/seminars.service */ "./src/app/pages/seminars/upcoming-seminars/seminars.service.ts");
+
+
+
+
+var RejuvanceComponent = /** @class */ (function () {
+    function RejuvanceComponent(seminarsServices, serverUrlServices) {
+        this.seminarsServices = seminarsServices;
+        this.serverUrlServices = serverUrlServices;
+        this.serverUrl = '';
+        this.seminars = [];
+        this.titles = [];
+    }
+    RejuvanceComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.seminarsServices.getContents().subscribe(function (responseData) {
+            _this.seminars = responseData;
+            for (var key in responseData) {
+                if (!_this.titles.includes(responseData[key].title)) {
+                    _this.titles.push(responseData[key].title);
+                }
+            }
+        });
+        this.serverUrl = this.serverUrlServices.serverStorage;
+        console.log("ServiceApi", this.serverUrl);
+    };
+    RejuvanceComponent.ctorParameters = function () { return [
+        { type: _seminars_upcoming_seminars_seminars_service__WEBPACK_IMPORTED_MODULE_3__["SeminarsServices"] },
+        { type: _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__["ServerUrlServices"] }
+    ]; };
+    RejuvanceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+            selector: 'app-rejuvance',
+            template: __webpack_require__(/*! raw-loader!./rejuvance.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance/rejuvance.component.html"),
+            styles: [__webpack_require__(/*! ./rejuvance.component.css */ "./src/app/pages/rejuvance/rejuvance.component.css")]
+        })
+    ], RejuvanceComponent);
+    return RejuvanceComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/pages/seminars/btaa/btaa.component.css":
 /*!********************************************************!*\
   !*** ./src/app/pages/seminars/btaa/btaa.component.css ***!
@@ -2578,7 +2721,7 @@ var QuoteComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlbWluYXJzL2J0YWEvYnRhYS5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\r\n.separator-holder {\r\n  position: absolute;\r\n  display: block;\r\n  top: 49.99%;\r\n  width: 2000px;\r\n  border-top: 1px solid red;\r\n  content: '';\r\n}\r\n.separator-holder, .accent-border-color .bg-on .separator-holder {\r\n  border-color: rgba(129,215,66,0.12);\r\n}\r\n.separator-left {\r\n\r\n  margin-right: 1em;\r\n}\r\n.separator-right {\r\n\r\n  margin-right: 1em;\r\n}\r\n.accent-gradient #page .accent-title-color .dt-fancy-title {\r\n  background: -webkit-linear-gradient(left, #21960f 30%, #5abc31 100%);\r\n  color: transparent;\r\n  -webkit-background-clip: text;\r\n  background-clip: text;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2VtaW5hcnMvYnRhYS9idGFhLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7RUFDZCxXQUFXO0VBQ1gsYUFBYTtFQUNiLHlCQUF5QjtFQUN6QixXQUFXO0FBQ2I7QUFDQTtFQUNFLG1DQUFtQztBQUNyQztBQUNBOztFQUVFLGlCQUFpQjtBQUNuQjtBQUVBOztFQUVFLGlCQUFpQjtBQUNuQjtBQUNBO0VBQ0Usb0VBQW9FO0VBQ3BFLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvc2VtaW5hcnMvYnRhYS9idGFhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnNlcGFyYXRvci1ob2xkZXIge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICBkaXNwbGF5OiBibG9jaztcclxuICB0b3A6IDQ5Ljk5JTtcclxuICB3aWR0aDogMjAwMHB4O1xyXG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCByZWQ7XHJcbiAgY29udGVudDogJyc7XHJcbn1cclxuLnNlcGFyYXRvci1ob2xkZXIsIC5hY2NlbnQtYm9yZGVyLWNvbG9yIC5iZy1vbiAuc2VwYXJhdG9yLWhvbGRlciB7XHJcbiAgYm9yZGVyLWNvbG9yOiByZ2JhKDEyOSwyMTUsNjYsMC4xMik7XHJcbn1cclxuLnNlcGFyYXRvci1sZWZ0IHtcclxuXHJcbiAgbWFyZ2luLXJpZ2h0OiAxZW07XHJcbn1cclxuXHJcbi5zZXBhcmF0b3ItcmlnaHQge1xyXG5cclxuICBtYXJnaW4tcmlnaHQ6IDFlbTtcclxufVxyXG4uYWNjZW50LWdyYWRpZW50ICNwYWdlIC5hY2NlbnQtdGl0bGUtY29sb3IgLmR0LWZhbmN5LXRpdGxlIHtcclxuICBiYWNrZ3JvdW5kOiAtd2Via2l0LWxpbmVhci1ncmFkaWVudChsZWZ0LCAjMjE5NjBmIDMwJSwgIzVhYmMzMSAxMDAlKTtcclxuICBjb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgLXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6IHRleHQ7XHJcbiAgYmFja2dyb3VuZC1jbGlwOiB0ZXh0O1xyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -2685,29 +2828,30 @@ var InstructorsComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InstructorsServices", function() { return InstructorsServices; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../shared/server-url.services */ "./src/app/shared/server-url.services.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
 
 
 
 
 var InstructorsServices = /** @class */ (function () {
-    function InstructorsServices(http) {
+    function InstructorsServices(http, serverUrlServices) {
         this.http = http;
-        this.serverApi = 'http://127.0.0.1:8000/api/therapist';
-        this.serverLocalHost = 'http://127.0.0.1:8000/storage/';
+        this.serverUrlServices = serverUrlServices;
     }
     InstructorsServices.prototype.getTherapist = function () {
         var _this = this;
-        return this.http.get('http://127.0.0.1:8000/api/therapists')
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (responseData) {
+        return this.http.get(this.serverUrlServices.serverApi + 'therapists')
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (responseData) {
             var postsArray = [];
             for (var key in responseData.therapists) {
                 if (responseData.therapists.hasOwnProperty(key)) {
                     if (responseData.therapists[key].image_url) {
                         var image_url = responseData.therapists[key].image_url;
-                        responseData.therapists[key].image_url = _this.serverLocalHost + image_url;
+                        responseData.therapists[key].image_url = _this.serverUrlServices.serverStorage + image_url;
                     }
                     postsArray.push(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, responseData.therapists[key], { key: key }));
                 }
@@ -2724,26 +2868,27 @@ var InstructorsServices = /** @class */ (function () {
         fd.append('content', postData.content);
         console.log("postData", fd);
         console.log("postData2", postData.image.name);
-        return this.http.post(this.serverApi, fd);
+        return this.http.post(this.serverUrlServices.serverApi + 'therapist', fd);
     };
     InstructorsServices.prototype.getEditInstructor = function (postData) {
-        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' });
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({ 'Content-Type': 'application/json' });
         /* const fd = new FormData();
          fd.append('image', postData.image);
          fd.append('image_url', postData.image.name);
          fd.append('name', postData.name);
          fd.append('content', postData.content);
          console.log('[mj]-getEditInstructor', fd.has('image'));*/
-        return this.http.put(this.serverApi + '/' + postData.id, postData, { headers: headers });
+        return this.http.put(this.serverUrlServices.serverApi + 'therapist' + '/' + postData.id, postData, { headers: headers });
     };
     InstructorsServices.prototype.deleteInstructor = function (id) {
-        return this.http.delete(this.serverApi + '/' + id);
+        return this.http.delete(this.serverUrlServices.serverApi + 'therapist' + '/' + id);
     };
     InstructorsServices.ctorParameters = function () { return [
-        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] },
+        { type: _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__["ServerUrlServices"] }
     ]; };
     InstructorsServices = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])()
     ], InstructorsServices);
     return InstructorsServices;
 }());
@@ -2847,7 +2992,7 @@ var TeachingProgramComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlbWluYXJzL3RyYWluaW5nLWNvdXJzZS90cmFpbmluZy1jb3Vyc2UuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "p {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n  font-size: 28px;\r\n}\r\nimg{\r\n  width: 3%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2VtaW5hcnMvdHJhaW5pbmctY291cnNlL3RyYWluaW5nLWNvdXJzZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixlQUFlO0FBQ2pCO0FBQ0E7RUFDRSxTQUFTO0FBQ1giLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9zZW1pbmFycy90cmFpbmluZy1jb3Vyc2UvdHJhaW5pbmctY291cnNlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwIHtcclxuICBtYXJnaW4tdG9wOiAwO1xyXG4gIG1hcmdpbi1ib3R0b206IDFyZW07XHJcbiAgZm9udC1zaXplOiAyOHB4O1xyXG59XHJcbmltZ3tcclxuICB3aWR0aDogMyU7XHJcbn1cclxuIl19 */"
 
 /***/ }),
 
@@ -2895,25 +3040,27 @@ var TrainingCourseComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeminarsServices", function() { return SeminarsServices; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../shared/server-url.services */ "./src/app/shared/server-url.services.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm5/operators/index.js");
+
 
 
 
 
 var SeminarsServices = /** @class */ (function () {
-    function SeminarsServices(http) {
+    function SeminarsServices(http, serverUrlServices) {
         this.http = http;
-        this.serverApi = 'http://127.0.0.1:8000/api/seminar';
+        this.serverUrlServices = serverUrlServices;
     }
     SeminarsServices.prototype.postContents = function (postData) {
         console.log("postData", postData);
-        return this.http.post(this.serverApi, postData);
+        return this.http.post(this.serverUrlServices.serverApi + 'seminar', postData);
     };
     SeminarsServices.prototype.getContents = function () {
-        return this.http.get('http://127.0.0.1:8000/api/seminars')
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (responseData) {
+        return this.http.get(this.serverUrlServices.serverApi + 'seminars')
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (responseData) {
             var postsArray = [];
             for (var key in responseData.seminars) {
                 if (responseData.seminars.hasOwnProperty(key)) {
@@ -2925,17 +3072,18 @@ var SeminarsServices = /** @class */ (function () {
         }));
     };
     SeminarsServices.prototype.getEditContent = function (postData) {
-        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' });
-        return this.http.put(this.serverApi + '/' + postData.id, postData, { headers: headers });
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({ 'Content-Type': 'application/json' });
+        return this.http.put(this.serverUrlServices.serverApi + 'seminar' + '/' + postData.id, postData, { headers: headers });
     };
     SeminarsServices.prototype.deleteContent = function (id) {
-        return this.http.delete(this.serverApi + '/' + id);
+        return this.http.delete(this.serverUrlServices.serverApi + 'seminar' + '/' + id);
     };
     SeminarsServices.ctorParameters = function () { return [
-        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"] },
+        { type: _shared_server_url_services__WEBPACK_IMPORTED_MODULE_1__["ServerUrlServices"] }
     ]; };
     SeminarsServices = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])()
     ], SeminarsServices);
     return SeminarsServices;
 }());
@@ -3038,6 +3186,35 @@ var DropdownDirective = /** @class */ (function () {
         })
     ], DropdownDirective);
     return DropdownDirective;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/server-url.services.ts":
+/*!***********************************************!*\
+  !*** ./src/app/shared/server-url.services.ts ***!
+  \***********************************************/
+/*! exports provided: ServerUrlServices */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServerUrlServices", function() { return ServerUrlServices; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ServerUrlServices = /** @class */ (function () {
+    function ServerUrlServices() {
+        this.serverStorage = 'http://127.0.0.1:8000/storage/';
+        this.serverApi = 'http://127.0.0.1:8000/api/';
+    }
+    ServerUrlServices = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+    ], ServerUrlServices);
+    return ServerUrlServices;
 }());
 
 
