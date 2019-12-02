@@ -393,7 +393,7 @@ module.exports = "\n<router-outlet></router-outlet>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Nastavni program</h1>>\n"
+module.exports = "<h1>Nastavni program</h1>\n\n<div class=\"container card-body\">\n    <h2>Australijska Akademija Bowen Terapije</h2>\n    <h3>Program obuke</h3>\n    <hr>\n  <div class=\"row\">\n    <div class=\"col-lg-2\">\n      <p>Moduli 1&2</p>\n    </div>\n    <div class=\"col-lg-8\">\n      <p>4-dnevni osnovni kurs (32 časa)</p>\n    </div>\n    <div class=\"col-lg-2\">\n      <p>cena : 350 €</p>\n    </div>\n  </div>\n\n  <div class=\"row\">\n      <div class=\"col-lg-2\">\n        <p>Moduli 3&4</p>\n      </div>\n      <div class=\"col-lg-8\">\n        <p>4-dnevni kurs (32 časa)\n          <br>\n          Revizija Modula 1&2, nove procedure, praktična i pismena procena\n          <br>\n          Dostaviti 4 studije slučajeva u elektronskoj formi\n        </p>\n      </div>\n      <div class=\"col-lg-2\">\n        <p>cena : 350 €</p>\n      </div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-lg-2\">\n          <p>Moduli 3&4</p>\n        </div>\n        <div class=\"col-lg-8\">\n          <p>4-dnevni kurs (32 časa)\n            <br>\n            Revizija prethodnih modula, nove procedure, praktična i pismena procena\n            <br>\n            Dostaviti 4 studije slučajeva u elektronskoj formi\n          </p>\n        </div>\n        <div class=\"col-lg-2\">\n          <p>cena : 350 €</p>\n        </div>\n      </div>\n\n      <div class=\"row\">\n          <div class=\"col-lg-2\">\n            <p>Modul 7</p>\n          </div>\n          <div class=\"col-lg-8\">\n            <p>4-dnevni kurs (32 časa)\n              <br>\n              Prva 2 dana je revizija svih procedura\n              <br>\n              Trećeg i četvrtog dana je pismeni ispit i praktična procena\n              <br>\n              Dostaviti 2 studije slučajeva u elektronskoj formi\n            </p>\n          </div>\n          <div class=\"col-lg-2\">\n            <p>cena : 350 €</p>\n          </div>\n        </div>\n</div>\n"
 
 /***/ }),
 
@@ -3016,7 +3016,7 @@ var SeminarsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlbWluYXJzL3RlYWNoaW5nLXByb2dyYW0vdGVhY2hpbmctcHJvZ3JhbS5jb21wb25lbnQuY3NzIn0= */"
+module.exports = ".card-body{\r\ntext-align: center;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvc2VtaW5hcnMvdGVhY2hpbmctcHJvZ3JhbS90ZWFjaGluZy1wcm9ncmFtLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxrQkFBa0I7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9zZW1pbmFycy90ZWFjaGluZy1wcm9ncmFtL3RlYWNoaW5nLXByb2dyYW0uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWJvZHl7XHJcbnRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG4iXX0= */"
 
 /***/ }),
 
