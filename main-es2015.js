@@ -52,7 +52,7 @@ module.exports = "\n  <div class=\" text-center footer\">\n    <div class=\"card
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <p class=\"icon-floating icon-floating-bck\">  <i class=\"fas fa-phone\"></i></p>\n    <p class=\"icon-info\">0600149949</p>\n  </div>\n  <div class=\"col-sm-6\">\n    <a  routerLink=\"/index\"><img class=\"logo-normal\" src=\"assets/logo.png\" alt=\"Hempak -logo\" class=\"logo\" (click)=\"isSeminarsActivated = false || isNewsActivated =false \"></a>\n  </div>\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <a class=\"icon-floating icon-floating-bck\"> <i class=\"fas fa-envelope fa-2x\"></i></a>\n    <p class=\"icon-info\">bowen@gmail.com</p>\n  </div>\n</div>\n\n<!--<nav class=\"navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark nav nav-pills flex-column flex-sm-row sticky-top\">\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\"\n    aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Active</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" >Longer nav</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/bowen-tehnika\" routerLinkActive=\"active\">Linkaaaaaa</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\">Link</a>\n      <div ngbDropdown class=\"d-inline-block\">\n        <a ngbDropdownToggle class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" id=\"dropdownBasic1\">Longer nav</a>\n\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <button ngbDropdownItem>Action - 1</button>\n          <button ngbDropdownItem>Another Action</button>\n          <button ngbDropdownItem>Something else is here</button>\n        </div>\n      </div>\n\n\n\n  </div>\n</nav>\n-->\n<nav\n  class=\"navbar navbar-expand-lg navbar-light sticky-top\" id=\"header\" #stickyActive >\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\n    aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n    <div class=\"col-sm-1\">\n        <a  routerLink=\"/index\"><img width=\"10\" height=\"80\" src=\"assets/navLogo2.png\" alt=\"Hempak -logo\" class=\"nav-logo\" #navLogo ></a>\n    </div>\n    <div  class=\"col-sm-10\">\n    <ul class=\"nav nav-pills nav-fill mx-auto\" >\n      <li class=\"nav-item\" >\n        <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/index\" [routerLinkActiveOptions]=\"{exact: true}\" (click)=\"isSeminarsActivated = false || isNewsActivated =false\">Naslovna</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a  class=\"nav-link\" routerLink= \"/bowen-tehnika\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false \">Bowen tehnika</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" #seminars ngbDropdownToggle  [ngClass]=\"{ 'active' : isSeminarsActivated}\"  >Bowen trening - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onSeminarsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/btaa\">BTAA – Bowen Therapy Academy of Australia</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/obuka\">Obuka</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/nastavni-program\">Nastavni program</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" ngbDropdownToggle [ngClass]=\"{ 'active' : isNewsActivated}\">Novosti i dešavanja</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onNewsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/dogadjaji\">Događaji</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/publikacije\">Publikacije</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/video\">Video</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/galerija\">Galerija</a>\n        </div>\n      </li>\n      <!--. <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/holisticki-centar\" routerLinkActive=\"active\" ngbDropdownToggle>Holistički centar</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem>Bowen tretmani</a>\n         <a ngbDropdownItem>Bahove kapi</a>\n          <a ngbDropdownItem>Aqua detox</a>\n          <a ngbDropdownItem>Reiki</a>\n          <a ngbDropdownItem>Rejuvance</a>\n          <a ngbDropdownItem>Nameštanje atlasa – prvog vratnog pršljena</a>..\n        </div>\n      </li>-->\n      <li class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/rejuvance\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false \">Rejuvance</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" #seminars ngbDropdownToggle  [ngClass]=\"{ 'active' : isSeminarsActivated}\"  >Rejuvance - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onSeminarsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/btaa\">BTAA – Bowen Therapy Academy of Australia</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/obuka\">Obuka</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/nastavni-program\">Nastavni program</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/kontakt\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false \">Kontakt</a>\n\n      </li>\n    </ul>\n    </div>\n    <div  class=\"col-sm-1 info\">\n          <span><i class=\"fab fa-facebook-square fa-2x\"></i></span>\n    </div>\n\n  </div>\n</nav>\n<div>\n\n</div>\n"
+module.exports = "<div class=\"row\">\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <p class=\"icon-floating icon-floating-bck\">  <i class=\"fas fa-phone\"></i></p>\n    <p class=\"icon-info\">0600149949</p>\n  </div>\n  <div class=\"col-sm-6\">\n    <a  routerLink=\"/index\"><img class=\"logo-normal\" src=\"assets/logo.png\" alt=\"Hempak -logo\" class=\"logo\" (click)=\"isSeminarsActivated = false || isNewsActivated =false || isRejSeminarsActivated= false \"></a>\n  </div>\n  <div class=\"col-sm-3 info\">\n    <br>\n    <br>\n    <a class=\"icon-floating icon-floating-bck\"> <i class=\"fas fa-envelope fa-2x\"></i></a>\n    <p class=\"icon-info\">bowen@gmail.com</p>\n  </div>\n</div>\n\n<!--<nav class=\"navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark nav nav-pills flex-column flex-sm-row sticky-top\">\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarTogglerDemo01\"\n    aria-controls=\"navbarTogglerDemo01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLinkActive=\"active\" routerLink=\"/index\">Active</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" >Longer nav</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/bowen-tehnika\" routerLinkActive=\"active\">Linkaaaaaa</a>\n      <a class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/novosti\" routerLinkActive=\"active\">Link</a>\n      <div ngbDropdown class=\"d-inline-block\">\n        <a ngbDropdownToggle class=\"flex-sm-fill text-sm-center nav-link\" routerLink=\"/seminari\" routerLinkActive=\"active\" id=\"dropdownBasic1\">Longer nav</a>\n\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <button ngbDropdownItem>Action - 1</button>\n          <button ngbDropdownItem>Another Action</button>\n          <button ngbDropdownItem>Something else is here</button>\n        </div>\n      </div>\n\n\n\n  </div>\n</nav>\n-->\n<nav\n  class=\"navbar navbar-expand-lg navbar-light sticky-top\" id=\"header\" #stickyActive >\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\"\n    aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo01\">\n    <div class=\"col-sm-1\">\n        <a  routerLink=\"/index\"><img width=\"10\" height=\"80\" src=\"assets/navLogo2.png\" alt=\"Hempak -logo\" class=\"nav-logo\" #navLogo ></a>\n    </div>\n    <div  class=\"col-sm-10\">\n    <ul class=\"nav nav-pills nav-fill mx-auto\" >\n      <li class=\"nav-item\" >\n        <a class=\"nav-link\" routerLinkActive=\"active\" routerLink=\"/index\" [routerLinkActiveOptions]=\"{exact: true}\" (click)=\"isSeminarsActivated = false || isNewsActivated =false || isRejSeminarsActivated = false\">Naslovna</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a  class=\"nav-link\" routerLink= \"/bowen-tehnika\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false \">Bowen tehnika</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" #seminars ngbDropdownToggle  [ngClass]=\"{ 'active' : isSeminarsActivated}\"  >Bowen trening - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onSeminarsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/btaa\">BTAA – Bowen Therapy Academy of Australia</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/obuka\">Obuka</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/nastavni-program\">Nastavni program</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" ngbDropdownToggle [ngClass]=\"{ 'active' : isNewsActivated}\">Novosti i dešavanja</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onNewsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/dogadjaji\">Događaji</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/publikacije\">Publikacije</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/video\">Video</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/novosti/galerija\">Galerija</a>\n        </div>\n      </li>\n      <!--. <li ngbDropdown class=\"nav-item\">\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLink=\"/holisticki-centar\" routerLinkActive=\"active\" ngbDropdownToggle>Holistički centar</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\">\n          <a ngbDropdownItem>Bowen tretmani</a>\n         <a ngbDropdownItem>Bahove kapi</a>\n          <a ngbDropdownItem>Aqua detox</a>\n          <a ngbDropdownItem>Reiki</a>\n          <a ngbDropdownItem>Rejuvance</a>\n          <a ngbDropdownItem>Nameštanje atlasa – prvog vratnog pršljena</a>..\n        </div>\n      </li>-->\n      <li class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/rejuvance\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false || isRejSeminarsActivated = false \">Rejuvance</a>\n      </li>\n      <li ngbDropdown class=\"nav-item\" >\n        <a id=\"dropdownBasic1\" class=\"nav-link\" routerLinkActive=\"active\" #seminars ngbDropdownToggle  [ngClass]=\"{ 'active' : isRejSeminarsActivated}\"  >Rejuvance trening - Seminari</a>\n        <div ngbDropdownMenu aria-labelledby=\"dropdownBasic1\" (click)=\"onRejSeminarsClicked()\">\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/rejuvance-seminari/obuka\">Obuka</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/rejuvance-seminari/instruktori\">Instruktori</a>\n          <a ngbDropdownItem routerLinkActive=\"active\" routerLink= \"/rejuvance-seminari/predstojeci-seminari\">Predstojeći seminari</a>\n        </div>\n      </li>\n      <li ngbDropdown class=\"nav-item\">\n        <a  class=\"nav-link\" routerLink=\"/kontakt\" routerLinkActive=\"active\" (click)=\"isSeminarsActivated = false || isNewsActivated =false || isRejSeminarsActivated = false \">Kontakt</a>\n\n      </li>\n    </ul>\n    </div>\n    <div  class=\"col-sm-1 info\">\n          <span><i class=\"fab fa-facebook-square fa-2x\"></i></span>\n    </div>\n\n  </div>\n</nav>\n<div>\n\n</div>\n"
 
 /***/ }),
 
@@ -342,6 +342,50 @@ module.exports = "<ul>\n  <li>{{quote.content}}\n\n    <span *ngIf=\"isDeleted\"
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.html":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.html ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>Naši terapeuti</h1>\n<div class=\"container\"  *ngFor=\"let instructor of instructors\">\n  <div class=\"row\" *ngIf=\"instructor.name == 'Alexandra Antoniou'\" >\n    <div class=\"col-lg-2  instructors-table\">\n      <img class=\"profile-image\" src=\"{{instructor.image_url}}\" alt=\"...\" class=\"img-thumbnail\">\n    </div>\n\n    <div class=\"col-lg-10 card-body-main\">\n      <h2>{{instructor.name}}\n         <span *ngIf=\"instructor.name == 'Alexandra Antoniou'\"><img   src=\"assets/star.png\"><img   src=\"assets/star.png\"><img   src=\"assets/star.png\"></span>\n         <span  *ngIf=\"instructor.name == 'Andrew Zoppos'\"><img   src=\"assets/star.png\"><img   src=\"assets/star.png\"><img   src=\"assets/star.png\"><img   src=\"assets/star.png\"></span>\n\n      </h2>\n      <p>{{instructor.content}}</p>\n    </div>\n  </div>\n<br>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.html":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.html ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>rej-training works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.html ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>rej-upcoming-seminars works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.html":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.html ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<router-outlet></router-outlet>\n"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance/rejuvance.component.html":
 /*!************************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/pages/rejuvance/rejuvance.component.html ***!
@@ -382,7 +426,7 @@ module.exports = "\n<h1>Naši terapeuti</h1>\n<div class=\"container\"  *ngFor=\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<span class=\"logo\" >\n  <img src=\"assets/infoLogo.png\">\n</span>\n\n<router-outlet></router-outlet>\n"
+module.exports = "\n<span class=\"logo\" >\n  <img src=\"assets/infoLogo.png\">\n</span>\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -430,27 +474,35 @@ module.exports = "<h1>Predstojeći seminari</h1>\n\n<div class=\"table-responsiv
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/news/photos/photos.component */ "./src/app/pages/news/photos/photos.component.ts");
-/* harmony import */ var _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/seminars/teaching-program/teaching-program.component */ "./src/app/pages/seminars/teaching-program/teaching-program.component.ts");
-/* harmony import */ var _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/seminars/training-course/training-course.component */ "./src/app/pages/seminars/training-course/training-course.component.ts");
-/* harmony import */ var _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/seminars/btaa/btaa.component */ "./src/app/pages/seminars/btaa/btaa.component.ts");
-/* harmony import */ var _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/rejuvance/rejuvance.component */ "./src/app/pages/rejuvance/rejuvance.component.ts");
-/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
-/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
-/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
-/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
-/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
-/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
-/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
-/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
-/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
-/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
-/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_instructors_rej_instructors_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-instructors/rej-instructors.component */ "./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_upcoming_seminars_rej_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component */ "./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_training_rej_training_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-training/rej-training.component */ "./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rejuvance_seminars_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rejuvance-seminars.component */ "./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.ts");
+/* harmony import */ var _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/news/photos/photos.component */ "./src/app/pages/news/photos/photos.component.ts");
+/* harmony import */ var _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/seminars/teaching-program/teaching-program.component */ "./src/app/pages/seminars/teaching-program/teaching-program.component.ts");
+/* harmony import */ var _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/seminars/training-course/training-course.component */ "./src/app/pages/seminars/training-course/training-course.component.ts");
+/* harmony import */ var _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/seminars/btaa/btaa.component */ "./src/app/pages/seminars/btaa/btaa.component.ts");
+/* harmony import */ var _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/rejuvance/rejuvance.component */ "./src/app/pages/rejuvance/rejuvance.component.ts");
+/* harmony import */ var _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/news/video/video.component */ "./src/app/pages/news/video/video.component.ts");
+/* harmony import */ var _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/news/publications/publications.component */ "./src/app/pages/news/publications/publications.component.ts");
+/* harmony import */ var _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/news/events/events.component */ "./src/app/pages/news/events/events.component.ts");
+/* harmony import */ var _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/seminars/instructors/instructors.component */ "./src/app/pages/seminars/instructors/instructors.component.ts");
+/* harmony import */ var _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/seminars/upcoming-seminars/upcoming-seminars.component */ "./src/app/pages/seminars/upcoming-seminars/upcoming-seminars.component.ts");
+/* harmony import */ var _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/login/admin/admin.component */ "./src/app/pages/login/admin/admin.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
+/* harmony import */ var _pages_news_news_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/news/news.component */ "./src/app/pages/news/news.component.ts");
+/* harmony import */ var _pages_index_index_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/index/index.component */ "./src/app/pages/index/index.component.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/bowen-technique/bowen-technique.component */ "./src/app/pages/bowen-technique/bowen-technique.component.ts");
+/* harmony import */ var _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pages/seminars/seminars.component */ "./src/app/pages/seminars/seminars.component.ts");
+/* harmony import */ var _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/about-us/about-us.component */ "./src/app/pages/about-us/about-us.component.ts");
+/* harmony import */ var _pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/login/auth-guard.service */ "./src/app/pages/login/auth-guard.service.ts");
+
+
+
+
 
 
 
@@ -475,34 +527,39 @@ __webpack_require__.r(__webpack_exports__);
 
 const appRoutes = [
     { path: '', redirectTo: 'index', pathMatch: 'full' },
-    { path: 'index', component: _pages_index_index_component__WEBPACK_IMPORTED_MODULE_15__["IndexComponent"] },
-    { path: 'seminari', component: _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_19__["SeminarsComponent"], children: [
-            { path: 'btaa', component: _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_4__["BtaaComponent"] },
-            { path: 'obuka', component: _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_3__["TrainingCourseComponent"] },
-            { path: 'nastavni-program', component: _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_2__["TeachingProgramComponent"] },
-            { path: 'predstojeci-seminari', component: _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_10__["UpcomingSeminarsComponent"] },
-            { path: 'instruktori', component: _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_9__["InstructorsComponent"] }
+    { path: 'index', component: _pages_index_index_component__WEBPACK_IMPORTED_MODULE_19__["IndexComponent"] },
+    { path: 'seminari', component: _pages_seminars_seminars_component__WEBPACK_IMPORTED_MODULE_23__["SeminarsComponent"], children: [
+            { path: 'btaa', component: _pages_seminars_btaa_btaa_component__WEBPACK_IMPORTED_MODULE_8__["BtaaComponent"] },
+            { path: 'obuka', component: _pages_seminars_training_course_training_course_component__WEBPACK_IMPORTED_MODULE_7__["TrainingCourseComponent"] },
+            { path: 'nastavni-program', component: _pages_seminars_teaching_program_teaching_program_component__WEBPACK_IMPORTED_MODULE_6__["TeachingProgramComponent"] },
+            { path: 'predstojeci-seminari', component: _pages_seminars_upcoming_seminars_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_14__["UpcomingSeminarsComponent"] },
+            { path: 'instruktori', component: _pages_seminars_instructors_instructors_component__WEBPACK_IMPORTED_MODULE_13__["InstructorsComponent"] }
         ] },
-    { path: 'bowen-tehnika', component: _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_18__["BowenTechniqueComponent"] },
-    { path: 'novosti', component: _pages_news_news_component__WEBPACK_IMPORTED_MODULE_14__["NewsComponent"], children: [
-            { path: 'dogadjaji', component: _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_8__["EventsComponent"] },
-            { path: 'publikacije', component: _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_7__["PublicationsComponent"] },
-            { path: 'video', component: _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_6__["VideoComponent"] },
-            { path: 'galerija', component: _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_1__["PhotosComponent"] }
+    { path: 'bowen-tehnika', component: _pages_bowen_technique_bowen_technique_component__WEBPACK_IMPORTED_MODULE_22__["BowenTechniqueComponent"] },
+    { path: 'novosti', component: _pages_news_news_component__WEBPACK_IMPORTED_MODULE_18__["NewsComponent"], children: [
+            { path: 'dogadjaji', component: _pages_news_events_events_component__WEBPACK_IMPORTED_MODULE_12__["EventsComponent"] },
+            { path: 'publikacije', component: _pages_news_publications_publications_component__WEBPACK_IMPORTED_MODULE_11__["PublicationsComponent"] },
+            { path: 'video', component: _pages_news_video_video_component__WEBPACK_IMPORTED_MODULE_10__["VideoComponent"] },
+            { path: 'galerija', component: _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_5__["PhotosComponent"] }
         ] },
     //{ path: 'holisticki-centar', component: HolisticCenterComponent},
-    { path: 'onama', component: _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_20__["AboutUsComponent"] },
-    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_12__["LoginComponent"] },
-    { path: 'kontakt', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"] },
-    { path: 'login/admin', canActivate: [_pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_21__["AuthGuard"]], component: _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_11__["AdminComponent"] },
-    { path: 'rejuvance', component: _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_5__["RejuvanceComponent"] }
+    { path: 'onama', component: _pages_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_24__["AboutUsComponent"] },
+    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__["LoginComponent"] },
+    { path: 'kontakt', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_17__["ContactComponent"] },
+    { path: 'login/admin', canActivate: [_pages_login_auth_guard_service__WEBPACK_IMPORTED_MODULE_25__["AuthGuard"]], component: _pages_login_admin_admin_component__WEBPACK_IMPORTED_MODULE_15__["AdminComponent"] },
+    { path: 'rejuvance', component: _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_9__["RejuvanceComponent"] },
+    { path: 'rejuvance-seminari', component: _pages_rejuvance_seminars_rejuvance_seminars_component__WEBPACK_IMPORTED_MODULE_4__["RejuvanceSeminarsComponent"], children: [
+            { path: 'obuka', component: _pages_rejuvance_seminars_rej_training_rej_training_component__WEBPACK_IMPORTED_MODULE_3__["RejTrainingComponent"] },
+            { path: 'predstojeci-seminari', component: _pages_rejuvance_seminars_rej_upcoming_seminars_rej_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_2__["RejUpcomingSeminarsComponent"] },
+            { path: 'instruktori', component: _pages_rejuvance_seminars_rej_instructors_rej_instructors_component__WEBPACK_IMPORTED_MODULE_1__["RejInstructorsComponent"] }
+        ] }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_16__["NgModule"])({
-        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__["RouterModule"].forRoot(appRoutes)],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__["RouterModule"]]
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_20__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_21__["RouterModule"].forRoot(appRoutes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_21__["RouterModule"]]
     })
 ], AppRoutingModule);
 
@@ -630,6 +687,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./pages/login/admin/instructor/instructor.component */ "./src/app/pages/login/admin/instructor/instructor.component.ts");
 /* harmony import */ var _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./pages/rejuvance/rejuvance.component */ "./src/app/pages/rejuvance/rejuvance.component.ts");
 /* harmony import */ var _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./pages/news/photos/photos.component */ "./src/app/pages/news/photos/photos.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rejuvance_seminars_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rejuvance-seminars.component */ "./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_upcoming_seminars_rej_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component */ "./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_instructors_rej_instructors_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-instructors/rej-instructors.component */ "./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.ts");
+/* harmony import */ var _pages_rejuvance_seminars_rej_training_rej_training_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./pages/rejuvance-seminars/rej-training/rej-training.component */ "./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.ts");
+
+
+
+
 
 
 
@@ -723,7 +788,11 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _pages_login_admin_seminar_seminar_component__WEBPACK_IMPORTED_MODULE_48__["SeminarComponent"],
             _pages_login_admin_instructor_instructor_component__WEBPACK_IMPORTED_MODULE_49__["InstructorComponent"],
             _pages_rejuvance_rejuvance_component__WEBPACK_IMPORTED_MODULE_50__["RejuvanceComponent"],
-            _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_51__["PhotosComponent"]
+            _pages_news_photos_photos_component__WEBPACK_IMPORTED_MODULE_51__["PhotosComponent"],
+            _pages_rejuvance_seminars_rejuvance_seminars_component__WEBPACK_IMPORTED_MODULE_52__["RejuvanceSeminarsComponent"],
+            _pages_rejuvance_seminars_rej_upcoming_seminars_rej_upcoming_seminars_component__WEBPACK_IMPORTED_MODULE_53__["RejUpcomingSeminarsComponent"],
+            _pages_rejuvance_seminars_rej_instructors_rej_instructors_component__WEBPACK_IMPORTED_MODULE_54__["RejInstructorsComponent"],
+            _pages_rejuvance_seminars_rej_training_rej_training_component__WEBPACK_IMPORTED_MODULE_55__["RejTrainingComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_8__["BrowserModule"],
@@ -791,7 +860,7 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".logo{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 80%;\r\n}\r\n.smallLogo{\r\n  display: block;\r\n  width: 15%;\r\n}\r\n#header {\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 15px 0 15px 0;\r\n  list-style: none;\r\n  /*background-color: #111;\r\n  background-image: linear-gradient(#b9b3b7, #ffffff, #b9b3b7);\r\n  border-radius: 10px;\r\n  box-shadow: 4px 3px 9px #9c9c9c;*/\r\n}\r\n.nav-item a {\r\n  color: #023e18;\r\n  font-size: 26px;\r\n  font-weight: 600;\r\n}\r\n.info {\r\n  text-align:  center;\r\n}\r\n.fab {\r\n  color: #9c9c9c;\r\n}\r\n.nav-pills .nav-link.active, .nav-pills .show > .nav-link {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-item .active {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-link{\r\n  display: inline;\r\n  cursor: pointer;\r\n  -webkit-user-select: none;  /* Chrome all / Safari all */\r\n  -moz-user-select: none;     /* Firefox all */\r\n  -ms-user-select: none;      /* IE 10+ */\r\n  user-select: none;          /* Likely future */\r\n}\r\nnav a ::before{\r\n  border-color: #006837;\r\n}\r\n.navbar-collapse li {\r\n\r\n  border-right: 1.5px solid #69a601;\r\n  position: relative;\r\n  margin: 10px 0px 10px 0px;\r\n}\r\n.navbar-collapse li:last-child {\r\n\r\n  border: none;\r\n}\r\n.dropdown-menu{\r\n  left: 10px;\r\n  top:  38px;\r\n  moz-transition:    all 1800ms ease;\r\n  transition:         all 1800ms ease;\r\n}\r\n.navbar-collapse>ul>li{\r\n  padding: 4px 10px 18px  10px;\r\n}\r\n.logo-normal img {\r\n\tposition: absolute;\r\n\ttransition: opacity 0.3s ease;\r\n\tmargin-top: -20px !important;\r\n}\r\n.logo-normal {\r\n\topacity: 1;\r\n}\r\n.nav-logo{\r\n  opacity: 0;\r\n  width: 110px;\r\n  height: auto;\r\n  margin-left: 5px;\r\n}\r\n.icon-floating {\r\n  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);\r\n  position: relative;\r\n  z-index: 1;\r\n  vertical-align: middle;\r\n  display: inline-block;\r\n  overflow: hidden;\r\n  transition: all .2s ease-in-out;\r\n  margin: 10px;\r\n  border-radius: 50%;\r\n  padding: 0;\r\n  cursor: pointer;\r\n  width: 47px;\r\n  height: 47px;\r\n}\r\n.icon-floating i {\r\n  font-size: 1.25rem;\r\n  line-height: 47px;\r\n  text-align: center;\r\n  color: #fff;\r\n}\r\n.icon-floating-bck{\r\n  background-image: linear-gradient(to right, #20950d, #57ba2f)!important;\r\n  pointer-events: none;\r\n}\r\n.icon-info {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n  color: #1e7107;\r\n  font-size: 23px;\r\n  text-shadow: 0px 1px 20px #309e17;\r\n}\r\n/* .dropdown:hover>.dropdown-menu {\r\n  display: block;\r\n } */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7QUFDQTtFQUNFLGNBQWM7RUFDZCxVQUFVO0FBQ1o7QUFFQTtFQUNFLFdBQVc7RUFDWCxTQUFTO0VBQ1Qsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQjs7O21DQUdpQztBQUNuQztBQUNBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UsY0FBYztBQUNoQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLGNBQWM7RUFDZCxnQ0FBZ0M7RUFDaEMsZ0JBQWdCO0VBQ2hCLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQiw0REFBNEQ7RUFDNUQsbUJBQW1CO0VBQ25CLDZCQUE2QjtFQUM3QixjQUFjO0VBQ2QsZ0NBQWdDO0VBQ2hDLGdCQUFnQjtFQUNoQixrQkFBa0I7O0FBRXBCO0FBQ0E7RUFDRSxlQUFlO0VBQ2YsZUFBZTtFQUNmLHlCQUF5QixHQUFHLDRCQUE0QjtFQUN4RCxzQkFBc0IsTUFBTSxnQkFBZ0I7RUFDNUMscUJBQXFCLE9BQU8sV0FBVztFQUN2QyxpQkFBaUIsV0FBVyxrQkFBa0I7QUFDaEQ7QUFDQTtFQUNFLHFCQUFxQjtBQUN2QjtBQUNBOztFQUVFLGlDQUFpQztFQUNqQyxrQkFBa0I7RUFDbEIseUJBQXlCO0FBQzNCO0FBQ0E7O0VBRUUsWUFBWTtBQUNkO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsVUFBVTtFQUNWLGtDQUFrQztFQUlsQyxtQ0FBbUM7QUFDckM7QUFFQTtFQUNFLDRCQUE0QjtBQUM5QjtBQUVBO0NBQ0Msa0JBQWtCO0NBR2xCLDZCQUE2QjtDQUM3Qiw0QkFBNEI7QUFDN0I7QUFFQTtDQUNDLFVBQVU7QUFDWDtBQUNBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7RUFDWixZQUFZO0VBQ1osZ0JBQWdCO0FBQ2xCO0FBRUE7RUFDRSxzRUFBc0U7RUFDdEUsa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixzQkFBc0I7RUFDdEIscUJBQXFCO0VBQ3JCLGdCQUFnQjtFQUNoQiwrQkFBK0I7RUFDL0IsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixVQUFVO0VBQ1YsZUFBZTtFQUNmLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLFdBQVc7QUFDYjtBQUNBO0VBQ0UsdUVBQXVFO0VBQ3ZFLG9CQUFvQjtBQUN0QjtBQUNBO0VBQ0UsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixjQUFjO0VBQ2QsZUFBZTtFQUNmLGlDQUFpQztBQUNuQztBQUVBOztJQUVJIiwiZmlsZSI6InNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nb3tcclxuICBkaXNwbGF5OiBibG9jaztcclxuICBtYXJnaW4tbGVmdDogYXV0bztcclxuICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgd2lkdGg6IDgwJTtcclxufVxyXG4uc21hbGxMb2dve1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIHdpZHRoOiAxNSU7XHJcbn1cclxuXHJcbiNoZWFkZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIG1hcmdpbjogMDtcclxuICBwYWRkaW5nOiAxNXB4IDAgMTVweCAwO1xyXG4gIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgLypiYWNrZ3JvdW5kLWNvbG9yOiAjMTExO1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgjYjliM2I3LCAjZmZmZmZmLCAjYjliM2I3KTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIGJveC1zaGFkb3c6IDRweCAzcHggOXB4ICM5YzljOWM7Ki9cclxufVxyXG4ubmF2LWl0ZW0gYSB7XHJcbiAgY29sb3I6ICMwMjNlMTg7XHJcbiAgZm9udC1zaXplOiAyNnB4O1xyXG4gIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbn1cclxuLmluZm8ge1xyXG4gIHRleHQtYWxpZ246ICBjZW50ZXI7XHJcbn1cclxuLmZhYiB7XHJcbiAgY29sb3I6ICM5YzljOWM7XHJcbn1cclxuXHJcbi5uYXYtcGlsbHMgLm5hdi1saW5rLmFjdGl2ZSwgLm5hdi1waWxscyAuc2hvdyA+IC5uYXYtbGluayB7XHJcbiAgYm9yZGVyLXJhZGl1czogOHB4O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgjMDA2ODM3LCAjYjRlNjI1LCAjM2FiNTRhKTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIGJveC1zaGFkb3c6IDAgMnB4IDFweCAjOWM5YzljO1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtc2hhZG93OiAxLjVweCAxcHggMXB4IGJsYWNrO1xyXG4gIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgZm9udC1zdHlsZTogaXRhbGljO1xyXG5cclxufVxyXG5cclxuLm5hdi1pdGVtIC5hY3RpdmUge1xyXG4gIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoIzAwNjgzNywgI2I0ZTYyNSwgIzNhYjU0YSk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBib3gtc2hhZG93OiAwIDJweCAxcHggIzljOWM5YztcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICB0ZXh0LXNoYWRvdzogMS41cHggMXB4IDFweCBibGFjaztcclxuICBmb250LXdlaWdodDogNjAwO1xyXG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuXHJcbn1cclxuLm5hdi1saW5re1xyXG4gIGRpc3BsYXk6IGlubGluZTtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTsgIC8qIENocm9tZSBhbGwgLyBTYWZhcmkgYWxsICovXHJcbiAgLW1vei11c2VyLXNlbGVjdDogbm9uZTsgICAgIC8qIEZpcmVmb3ggYWxsICovXHJcbiAgLW1zLXVzZXItc2VsZWN0OiBub25lOyAgICAgIC8qIElFIDEwKyAqL1xyXG4gIHVzZXItc2VsZWN0OiBub25lOyAgICAgICAgICAvKiBMaWtlbHkgZnV0dXJlICovXHJcbn1cclxubmF2IGEgOjpiZWZvcmV7XHJcbiAgYm9yZGVyLWNvbG9yOiAjMDA2ODM3O1xyXG59XHJcbi5uYXZiYXItY29sbGFwc2UgbGkge1xyXG5cclxuICBib3JkZXItcmlnaHQ6IDEuNXB4IHNvbGlkICM2OWE2MDE7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIG1hcmdpbjogMTBweCAwcHggMTBweCAwcHg7XHJcbn1cclxuLm5hdmJhci1jb2xsYXBzZSBsaTpsYXN0LWNoaWxkIHtcclxuXHJcbiAgYm9yZGVyOiBub25lO1xyXG59XHJcbi5kcm9wZG93bi1tZW51e1xyXG4gIGxlZnQ6IDEwcHg7XHJcbiAgdG9wOiAgMzhweDtcclxuICBtb3otdHJhbnNpdGlvbjogICAgYWxsIDE4MDBtcyBlYXNlO1xyXG4gIC13ZWJraXQtdHJhbnNpdGlvbjogYWxsIDE4MDBtcyBlYXNlO1xyXG4gIC1vLXRyYW5zaXRpb246ICAgICAgYWxsIDE4MDBtcyBlYXNlO1xyXG4gIC1tcy10cmFuc2l0aW9uOiAgICAgYWxsIDE4MDBtcyBlYXNlO1xyXG4gIHRyYW5zaXRpb246ICAgICAgICAgYWxsIDE4MDBtcyBlYXNlO1xyXG59XHJcblxyXG4ubmF2YmFyLWNvbGxhcHNlPnVsPmxpe1xyXG4gIHBhZGRpbmc6IDRweCAxMHB4IDE4cHggIDEwcHg7XHJcbn1cclxuXHJcbi5sb2dvLW5vcm1hbCBpbWcge1xyXG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHQtd2Via2l0LXRyYW5zaXRpb246IG9wYWNpdHkgMC4zcyBlYXNlO1xyXG5cdC1tb3otdHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzIGVhc2U7XHJcblx0dHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzIGVhc2U7XHJcblx0bWFyZ2luLXRvcDogLTIwcHggIWltcG9ydGFudDtcclxufVxyXG5cclxuLmxvZ28tbm9ybWFsIHtcclxuXHRvcGFjaXR5OiAxO1xyXG59XHJcbi5uYXYtbG9nb3tcclxuICBvcGFjaXR5OiAwO1xyXG4gIHdpZHRoOiAxMTBweDtcclxuICBoZWlnaHQ6IGF1dG87XHJcbiAgbWFyZ2luLWxlZnQ6IDVweDtcclxufVxyXG5cclxuLmljb24tZmxvYXRpbmcge1xyXG4gIGJveC1zaGFkb3c6IDAgNXB4IDExcHggMCByZ2JhKDAsMCwwLC4xOCksIDAgNHB4IDE1cHggMCByZ2JhKDAsMCwwLC4xNSk7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHotaW5kZXg6IDE7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICB0cmFuc2l0aW9uOiBhbGwgLjJzIGVhc2UtaW4tb3V0O1xyXG4gIG1hcmdpbjogMTBweDtcclxuICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgcGFkZGluZzogMDtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgd2lkdGg6IDQ3cHg7XHJcbiAgaGVpZ2h0OiA0N3B4O1xyXG59XHJcbi5pY29uLWZsb2F0aW5nIGkge1xyXG4gIGZvbnQtc2l6ZTogMS4yNXJlbTtcclxuICBsaW5lLWhlaWdodDogNDdweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgY29sb3I6ICNmZmY7XHJcbn1cclxuLmljb24tZmxvYXRpbmctYmNre1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgIzIwOTUwZCwgIzU3YmEyZikhaW1wb3J0YW50O1xyXG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5pY29uLWluZm8ge1xyXG4gIG1hcmdpbi10b3A6IDA7XHJcbiAgbWFyZ2luLWJvdHRvbTogMXJlbTtcclxuICBjb2xvcjogIzFlNzEwNztcclxuICBmb250LXNpemU6IDIzcHg7XHJcbiAgdGV4dC1zaGFkb3c6IDBweCAxcHggMjBweCAjMzA5ZTE3O1xyXG59XHJcblxyXG4vKiAuZHJvcGRvd246aG92ZXI+LmRyb3Bkb3duLW1lbnUge1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gfSAqL1xyXG4iXX0= */"
+module.exports = ".logo{\r\n  display: block;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n  width: 80%;\r\n}\r\n.smallLogo{\r\n  display: block;\r\n  width: 15%;\r\n}\r\n#header {\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 15px 0 15px 0;\r\n  list-style: none;\r\n  /*background-color: #111;\r\n  background-image: linear-gradient(#b9b3b7, #ffffff, #b9b3b7);\r\n  border-radius: 10px;\r\n  box-shadow: 4px 3px 9px #9c9c9c;*/\r\n}\r\n.nav-item a {\r\n  color: #023e18;\r\n  font-size: 26px;\r\n  font-weight: 600;\r\n}\r\n.info {\r\n  text-align:  center;\r\n}\r\n.fab {\r\n  color: #9c9c9c;\r\n}\r\n.nav-pills .nav-link.active, .nav-pills .show > .nav-link {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-item .active {\r\n  border-radius: 8px;\r\n  background-image: linear-gradient(#006837, #b4e625, #3ab54a);\r\n  border-radius: 10px;\r\n  box-shadow: 0 2px 1px #9c9c9c;\r\n  color: #ffffff;\r\n  text-shadow: 1.5px 1px 1px black;\r\n  font-weight: 600;\r\n  font-style: italic;\r\n\r\n}\r\n.nav-link{\r\n  display: inline;\r\n  cursor: pointer;\r\n  -webkit-user-select: none;  /* Chrome all / Safari all */\r\n  -moz-user-select: none;     /* Firefox all */\r\n  -ms-user-select: none;      /* IE 10+ */\r\n  user-select: none;          /* Likely future */\r\n  padding: 0.5rem 1rem;\r\n}\r\nnav a ::before{\r\n  border-color: #006837;\r\n}\r\n.navbar-collapse li {\r\n\r\n  border-right: 1.5px solid #69a601;\r\n  position: relative;\r\n  margin: 10px 0px 10px 0px;\r\n  padding: 0rem 0.2rem 0rem 0.2rem;\r\n}\r\n.navbar-collapse li:last-child {\r\n\r\n  border: none;\r\n}\r\n.dropdown-menu{\r\n  left: 10px;\r\n  top:  38px;\r\n  moz-transition:    all 1800ms ease;\r\n  transition:         all 1800ms ease;\r\n}\r\n.navbar-collapse>ul>li{\r\n  padding: 4px 10px 18px  10px;\r\n}\r\n.logo-normal img {\r\n\tposition: absolute;\r\n\ttransition: opacity 0.3s ease;\r\n\tmargin-top: -20px !important;\r\n}\r\n.logo-normal {\r\n\topacity: 1;\r\n}\r\n.nav-logo{\r\n  opacity: 0;\r\n  width: 110px;\r\n  height: auto;\r\n  margin-left: 5px;\r\n}\r\n.icon-floating {\r\n  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);\r\n  position: relative;\r\n  z-index: 1;\r\n  vertical-align: middle;\r\n  display: inline-block;\r\n  overflow: hidden;\r\n  transition: all .2s ease-in-out;\r\n  margin: 10px;\r\n  border-radius: 50%;\r\n  padding: 0;\r\n  cursor: pointer;\r\n  width: 47px;\r\n  height: 47px;\r\n}\r\n.icon-floating i {\r\n  font-size: 1.25rem;\r\n  line-height: 47px;\r\n  text-align: center;\r\n  color: #fff;\r\n}\r\n.icon-floating-bck{\r\n  background-image: linear-gradient(to right, #20950d, #57ba2f)!important;\r\n  pointer-events: none;\r\n}\r\n.icon-info {\r\n  margin-top: 0;\r\n  margin-bottom: 1rem;\r\n  color: #1e7107;\r\n  font-size: 23px;\r\n  text-shadow: 0px 1px 20px #309e17;\r\n}\r\n/* .dropdown:hover>.dropdown-menu {\r\n  display: block;\r\n } */\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFycy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixVQUFVO0FBQ1o7QUFDQTtFQUNFLGNBQWM7RUFDZCxVQUFVO0FBQ1o7QUFFQTtFQUNFLFdBQVc7RUFDWCxTQUFTO0VBQ1Qsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQjs7O21DQUdpQztBQUNuQztBQUNBO0VBQ0UsY0FBYztFQUNkLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7QUFDQTtFQUNFLG1CQUFtQjtBQUNyQjtBQUNBO0VBQ0UsY0FBYztBQUNoQjtBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLDREQUE0RDtFQUM1RCxtQkFBbUI7RUFDbkIsNkJBQTZCO0VBQzdCLGNBQWM7RUFDZCxnQ0FBZ0M7RUFDaEMsZ0JBQWdCO0VBQ2hCLGtCQUFrQjs7QUFFcEI7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQiw0REFBNEQ7RUFDNUQsbUJBQW1CO0VBQ25CLDZCQUE2QjtFQUM3QixjQUFjO0VBQ2QsZ0NBQWdDO0VBQ2hDLGdCQUFnQjtFQUNoQixrQkFBa0I7O0FBRXBCO0FBQ0E7RUFDRSxlQUFlO0VBQ2YsZUFBZTtFQUNmLHlCQUF5QixHQUFHLDRCQUE0QjtFQUN4RCxzQkFBc0IsTUFBTSxnQkFBZ0I7RUFDNUMscUJBQXFCLE9BQU8sV0FBVztFQUN2QyxpQkFBaUIsV0FBVyxrQkFBa0I7RUFDOUMsb0JBQW9CO0FBQ3RCO0FBQ0E7RUFDRSxxQkFBcUI7QUFDdkI7QUFDQTs7RUFFRSxpQ0FBaUM7RUFDakMsa0JBQWtCO0VBQ2xCLHlCQUF5QjtFQUN6QixnQ0FBZ0M7QUFDbEM7QUFDQTs7RUFFRSxZQUFZO0FBQ2Q7QUFDQTtFQUNFLFVBQVU7RUFDVixVQUFVO0VBQ1Ysa0NBQWtDO0VBSWxDLG1DQUFtQztBQUNyQztBQUVBO0VBQ0UsNEJBQTRCO0FBQzlCO0FBRUE7Q0FDQyxrQkFBa0I7Q0FHbEIsNkJBQTZCO0NBQzdCLDRCQUE0QjtBQUM3QjtBQUVBO0NBQ0MsVUFBVTtBQUNYO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsWUFBWTtFQUNaLFlBQVk7RUFDWixnQkFBZ0I7QUFDbEI7QUFFQTtFQUNFLHNFQUFzRTtFQUN0RSxrQkFBa0I7RUFDbEIsVUFBVTtFQUNWLHNCQUFzQjtFQUN0QixxQkFBcUI7RUFDckIsZ0JBQWdCO0VBQ2hCLCtCQUErQjtFQUMvQixZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLFVBQVU7RUFDVixlQUFlO0VBQ2YsV0FBVztFQUNYLFlBQVk7QUFDZDtBQUNBO0VBQ0Usa0JBQWtCO0VBQ2xCLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsV0FBVztBQUNiO0FBQ0E7RUFDRSx1RUFBdUU7RUFDdkUsb0JBQW9CO0FBQ3RCO0FBQ0E7RUFDRSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLGNBQWM7RUFDZCxlQUFlO0VBQ2YsaUNBQWlDO0FBQ25DO0FBRUE7O0lBRUkiLCJmaWxlIjoic3JjL2FwcC9uYXZiYXJzL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dve1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG4gIG1hcmdpbi1yaWdodDogYXV0bztcclxuICB3aWR0aDogODAlO1xyXG59XHJcbi5zbWFsbExvZ297XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgd2lkdGg6IDE1JTtcclxufVxyXG5cclxuI2hlYWRlciB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmc6IDE1cHggMCAxNXB4IDA7XHJcbiAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAvKmJhY2tncm91bmQtY29sb3I6ICMxMTE7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KCNiOWIzYjcsICNmZmZmZmYsICNiOWIzYjcpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgYm94LXNoYWRvdzogNHB4IDNweCA5cHggIzljOWM5YzsqL1xyXG59XHJcbi5uYXYtaXRlbSBhIHtcclxuICBjb2xvcjogIzAyM2UxODtcclxuICBmb250LXNpemU6IDI2cHg7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxufVxyXG4uaW5mbyB7XHJcbiAgdGV4dC1hbGlnbjogIGNlbnRlcjtcclxufVxyXG4uZmFiIHtcclxuICBjb2xvcjogIzljOWM5YztcclxufVxyXG5cclxuLm5hdi1waWxscyAubmF2LWxpbmsuYWN0aXZlLCAubmF2LXBpbGxzIC5zaG93ID4gLm5hdi1saW5rIHtcclxuICBib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KCMwMDY4MzcsICNiNGU2MjUsICMzYWI1NGEpO1xyXG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgYm94LXNoYWRvdzogMCAycHggMXB4ICM5YzljOWM7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1zaGFkb3c6IDEuNXB4IDFweCAxcHggYmxhY2s7XHJcbiAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICBmb250LXN0eWxlOiBpdGFsaWM7XHJcblxyXG59XHJcblxyXG4ubmF2LWl0ZW0gLmFjdGl2ZSB7XHJcbiAgYm9yZGVyLXJhZGl1czogOHB4O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCgjMDA2ODM3LCAjYjRlNjI1LCAjM2FiNTRhKTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIGJveC1zaGFkb3c6IDAgMnB4IDFweCAjOWM5YzljO1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtc2hhZG93OiAxLjVweCAxcHggMXB4IGJsYWNrO1xyXG4gIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgZm9udC1zdHlsZTogaXRhbGljO1xyXG5cclxufVxyXG4ubmF2LWxpbmt7XHJcbiAgZGlzcGxheTogaW5saW5lO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOyAgLyogQ2hyb21lIGFsbCAvIFNhZmFyaSBhbGwgKi9cclxuICAtbW96LXVzZXItc2VsZWN0OiBub25lOyAgICAgLyogRmlyZWZveCBhbGwgKi9cclxuICAtbXMtdXNlci1zZWxlY3Q6IG5vbmU7ICAgICAgLyogSUUgMTArICovXHJcbiAgdXNlci1zZWxlY3Q6IG5vbmU7ICAgICAgICAgIC8qIExpa2VseSBmdXR1cmUgKi9cclxuICBwYWRkaW5nOiAwLjVyZW0gMXJlbTtcclxufVxyXG5uYXYgYSA6OmJlZm9yZXtcclxuICBib3JkZXItY29sb3I6ICMwMDY4Mzc7XHJcbn1cclxuLm5hdmJhci1jb2xsYXBzZSBsaSB7XHJcblxyXG4gIGJvcmRlci1yaWdodDogMS41cHggc29saWQgIzY5YTYwMTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgbWFyZ2luOiAxMHB4IDBweCAxMHB4IDBweDtcclxuICBwYWRkaW5nOiAwcmVtIDAuMnJlbSAwcmVtIDAuMnJlbTtcclxufVxyXG4ubmF2YmFyLWNvbGxhcHNlIGxpOmxhc3QtY2hpbGQge1xyXG5cclxuICBib3JkZXI6IG5vbmU7XHJcbn1cclxuLmRyb3Bkb3duLW1lbnV7XHJcbiAgbGVmdDogMTBweDtcclxuICB0b3A6ICAzOHB4O1xyXG4gIG1vei10cmFuc2l0aW9uOiAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLXdlYmtpdC10cmFuc2l0aW9uOiBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW8tdHJhbnNpdGlvbjogICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgLW1zLXRyYW5zaXRpb246ICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbiAgdHJhbnNpdGlvbjogICAgICAgICBhbGwgMTgwMG1zIGVhc2U7XHJcbn1cclxuXHJcbi5uYXZiYXItY29sbGFwc2U+dWw+bGl7XHJcbiAgcGFkZGluZzogNHB4IDEwcHggMThweCAgMTBweDtcclxufVxyXG5cclxuLmxvZ28tbm9ybWFsIGltZyB7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdC13ZWJraXQtdHJhbnNpdGlvbjogb3BhY2l0eSAwLjNzIGVhc2U7XHJcblx0LW1vei10cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHR0cmFuc2l0aW9uOiBvcGFjaXR5IDAuM3MgZWFzZTtcclxuXHRtYXJnaW4tdG9wOiAtMjBweCAhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ubG9nby1ub3JtYWwge1xyXG5cdG9wYWNpdHk6IDE7XHJcbn1cclxuLm5hdi1sb2dve1xyXG4gIG9wYWNpdHk6IDA7XHJcbiAgd2lkdGg6IDExMHB4O1xyXG4gIGhlaWdodDogYXV0bztcclxuICBtYXJnaW4tbGVmdDogNXB4O1xyXG59XHJcblxyXG4uaWNvbi1mbG9hdGluZyB7XHJcbiAgYm94LXNoYWRvdzogMCA1cHggMTFweCAwIHJnYmEoMCwwLDAsLjE4KSwgMCA0cHggMTVweCAwIHJnYmEoMCwwLDAsLjE1KTtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgei1pbmRleDogMTtcclxuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIHRyYW5zaXRpb246IGFsbCAuMnMgZWFzZS1pbi1vdXQ7XHJcbiAgbWFyZ2luOiAxMHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBwYWRkaW5nOiAwO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICB3aWR0aDogNDdweDtcclxuICBoZWlnaHQ6IDQ3cHg7XHJcbn1cclxuLmljb24tZmxvYXRpbmcgaSB7XHJcbiAgZm9udC1zaXplOiAxLjI1cmVtO1xyXG4gIGxpbmUtaGVpZ2h0OiA0N3B4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBjb2xvcjogI2ZmZjtcclxufVxyXG4uaWNvbi1mbG9hdGluZy1iY2t7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCAjMjA5NTBkLCAjNTdiYTJmKSFpbXBvcnRhbnQ7XHJcbiAgcG9pbnRlci1ldmVudHM6IG5vbmU7XHJcbn1cclxuLmljb24taW5mbyB7XHJcbiAgbWFyZ2luLXRvcDogMDtcclxuICBtYXJnaW4tYm90dG9tOiAxcmVtO1xyXG4gIGNvbG9yOiAjMWU3MTA3O1xyXG4gIGZvbnQtc2l6ZTogMjNweDtcclxuICB0ZXh0LXNoYWRvdzogMHB4IDFweCAyMHB4ICMzMDllMTc7XHJcbn1cclxuXHJcbi8qIC5kcm9wZG93bjpob3Zlcj4uZHJvcGRvd24tbWVudSB7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiB9ICovXHJcbiJdfQ== */"
 
 /***/ }),
 
@@ -812,6 +881,7 @@ __webpack_require__.r(__webpack_exports__);
 let HeaderComponent = class HeaderComponent {
     constructor() {
         this.isSeminarsActivated = false;
+        this.isRejSeminarsActivated = false;
         this.isNewsActivated = false;
     }
     onWindowScroll(e) {
@@ -833,11 +903,19 @@ let HeaderComponent = class HeaderComponent {
     onSeminarsClicked() {
         this.isSeminarsActivated = true;
         this.isNewsActivated = false;
+        this.isRejSeminarsActivated = false;
         console.log("klikno");
     }
     onNewsClicked() {
         this.isNewsActivated = true;
         this.isSeminarsActivated = false;
+        this.isRejSeminarsActivated = false;
+        console.log("klikno");
+    }
+    onRejSeminarsClicked() {
+        this.isRejSeminarsActivated = true;
+        this.isSeminarsActivated = false;
+        this.isNewsActivated = false;
         console.log("klikno");
     }
 };
@@ -2655,6 +2733,189 @@ QuoteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [__webpack_require__(/*! ./quote.component.css */ "./src/app/pages/quote/quote.component.css")]
     })
 ], QuoteComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.css":
+/*!****************************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.css ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\r\n.instructors-table img{\r\n\r\n  width: 100%;\r\n  height: auto;\r\n  border: 0;\r\n  box-shadow: 0 2px 5px 0 rgb(207, 182, 255), 0 2px 10px 0 rgb(170, 123, 255);\r\n  text-align: left;\r\n  background-image: linear-gradient(to right, #d7c7fe, #e4d9f9)!important;\r\n  color: #6f5472;\r\n}\r\n.instructors-table{\r\n  display: grid;\r\n align-items: center;\r\n}\r\n.card-body-main img{\r\n  width: 3%;\r\n  margin-top: -6px;\r\n}\r\n.img-thumbnail{\r\n  border-radius: 10%;\r\n}\r\n.card-body-main {\r\n  border: 0;\r\n  box-shadow: 0 2px 5px 0 rgb(207, 182, 255), 0 2px 10px 0 rgb(170, 123, 255);\r\n  text-align: left;\r\n  border-radius: 15px;\r\n  padding-top: 20px;\r\n  font-size: 20px;\r\n  background-image: linear-gradient(to right, #d7c7fe, #e4d9f9)!important;\r\n  color: #6f5472;\r\n}\r\nh1 {\r\n  overflow: hidden;\r\n  background: -webkit-linear-gradient(left, #e3d8fa 30%, #9346ff 100%);\r\n  color: transparent;\r\n  -webkit-background-clip: text;\r\n  text-align: center;\r\n  -webkit-filter: drop-shadow(1px 0.5px #333);\r\n          filter: drop-shadow(1px 0.5px #333);\r\n  padding-bottom: 20px\r\n}\r\nh1:after {\r\n  background: -webkit-linear-gradient(left, #9346ff8f 30%, #e3d8fa87 100%);\r\n  content: \"\";\r\n  display: inline-block;\r\n  height: 1px;\r\n  position: relative;\r\n  vertical-align: middle;\r\n  width: 25%;\r\n}\r\nh1:before {\r\n  background: -webkit-linear-gradient(left, #e3d8fa87 30%, #9346ff8f 100%);\r\n  content: \"\";\r\n  display: inline-block;\r\n  height: 1px;\r\n  position: relative;\r\n  vertical-align: middle;\r\n  width: 25%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcmVqdXZhbmNlLXNlbWluYXJzL3Jlai1pbnN0cnVjdG9ycy9yZWotaW5zdHJ1Y3RvcnMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7O0VBRUUsV0FBVztFQUNYLFlBQVk7RUFDWixTQUFTO0VBQ1QsMkVBQTJFO0VBQzNFLGdCQUFnQjtFQUNoQix1RUFBdUU7RUFDdkUsY0FBYztBQUNoQjtBQUNBO0VBQ0UsYUFBYTtDQUNkLG1CQUFtQjtBQUNwQjtBQUVBO0VBQ0UsU0FBUztFQUNULGdCQUFnQjtBQUNsQjtBQUNBO0VBQ0Usa0JBQWtCO0FBQ3BCO0FBQ0E7RUFDRSxTQUFTO0VBQ1QsMkVBQTJFO0VBQzNFLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZix1RUFBdUU7RUFDdkUsY0FBYztBQUNoQjtBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLG9FQUFvRTtFQUNwRSxrQkFBa0I7RUFDbEIsNkJBQTZCO0VBQzdCLGtCQUFrQjtFQUNsQiwyQ0FBbUM7VUFBbkMsbUNBQW1DO0VBQ25DO0FBQ0Y7QUFFQTtFQUNFLHdFQUF3RTtFQUN4RSxXQUFXO0VBQ1gscUJBQXFCO0VBQ3JCLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsc0JBQXNCO0VBQ3RCLFVBQVU7QUFDWjtBQUVBO0VBQ0Usd0VBQXdFO0VBQ3hFLFdBQVc7RUFDWCxxQkFBcUI7RUFDckIsV0FBVztFQUNYLGtCQUFrQjtFQUNsQixzQkFBc0I7RUFDdEIsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvcmVqdXZhbmNlLXNlbWluYXJzL3Jlai1pbnN0cnVjdG9ycy9yZWotaW5zdHJ1Y3RvcnMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4uaW5zdHJ1Y3RvcnMtdGFibGUgaW1ne1xyXG5cclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbiAgYm9yZGVyOiAwO1xyXG4gIGJveC1zaGFkb3c6IDAgMnB4IDVweCAwIHJnYigyMDcsIDE4MiwgMjU1KSwgMCAycHggMTBweCAwIHJnYigxNzAsIDEyMywgMjU1KTtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgI2Q3YzdmZSwgI2U0ZDlmOSkhaW1wb3J0YW50O1xyXG4gIGNvbG9yOiAjNmY1NDcyO1xyXG59XHJcbi5pbnN0cnVjdG9ycy10YWJsZXtcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG5cclxuLmNhcmQtYm9keS1tYWluIGltZ3tcclxuICB3aWR0aDogMyU7XHJcbiAgbWFyZ2luLXRvcDogLTZweDtcclxufVxyXG4uaW1nLXRodW1ibmFpbHtcclxuICBib3JkZXItcmFkaXVzOiAxMCU7XHJcbn1cclxuLmNhcmQtYm9keS1tYWluIHtcclxuICBib3JkZXI6IDA7XHJcbiAgYm94LXNoYWRvdzogMCAycHggNXB4IDAgcmdiKDIwNywgMTgyLCAyNTUpLCAwIDJweCAxMHB4IDAgcmdiKDE3MCwgMTIzLCAyNTUpO1xyXG4gIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgYm9yZGVyLXJhZGl1czogMTVweDtcclxuICBwYWRkaW5nLXRvcDogMjBweDtcclxuICBmb250LXNpemU6IDIwcHg7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCAjZDdjN2ZlLCAjZTRkOWY5KSFpbXBvcnRhbnQ7XHJcbiAgY29sb3I6ICM2ZjU0NzI7XHJcbn1cclxuXHJcbmgxIHtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIGJhY2tncm91bmQ6IC13ZWJraXQtbGluZWFyLWdyYWRpZW50KGxlZnQsICNlM2Q4ZmEgMzAlLCAjOTM0NmZmIDEwMCUpO1xyXG4gIGNvbG9yOiB0cmFuc3BhcmVudDtcclxuICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogdGV4dDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgZmlsdGVyOiBkcm9wLXNoYWRvdygxcHggMC41cHggIzMzMyk7XHJcbiAgcGFkZGluZy1ib3R0b206IDIwcHhcclxufVxyXG5cclxuaDE6YWZ0ZXIge1xyXG4gIGJhY2tncm91bmQ6IC13ZWJraXQtbGluZWFyLWdyYWRpZW50KGxlZnQsICM5MzQ2ZmY4ZiAzMCUsICNlM2Q4ZmE4NyAxMDAlKTtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBoZWlnaHQ6IDFweDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG5oMTpiZWZvcmUge1xyXG4gIGJhY2tncm91bmQ6IC13ZWJraXQtbGluZWFyLWdyYWRpZW50KGxlZnQsICNlM2Q4ZmE4NyAzMCUsICM5MzQ2ZmY4ZiAxMDAlKTtcclxuICBjb250ZW50OiBcIlwiO1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBoZWlnaHQ6IDFweDtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICB3aWR0aDogMjUlO1xyXG59XHJcbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.ts":
+/*!***************************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.ts ***!
+  \***************************************************************************************/
+/*! exports provided: RejInstructorsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejInstructorsComponent", function() { return RejInstructorsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../seminars/instructors/instructors.services */ "./src/app/pages/seminars/instructors/instructors.services.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+
+let RejInstructorsComponent = class RejInstructorsComponent {
+    constructor(instructorsServices) {
+        this.instructorsServices = instructorsServices;
+        this.instructors = [];
+    }
+    ngOnInit() {
+        this.onGetTherapist();
+    }
+    onGetTherapist() {
+        this.instructorsServices.getTherapist().subscribe(responseData => {
+            this.instructors = responseData;
+            console.log("[mj]- onGetRejuvanceTherapist", this.instructors);
+        });
+    }
+};
+RejInstructorsComponent.ctorParameters = () => [
+    { type: _seminars_instructors_instructors_services__WEBPACK_IMPORTED_MODULE_1__["InstructorsServices"] }
+];
+RejInstructorsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+        selector: 'app-rej-instructors',
+        template: __webpack_require__(/*! raw-loader!./rej-instructors.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.html"),
+        styles: [__webpack_require__(/*! ./rej-instructors.component.css */ "./src/app/pages/rejuvance-seminars/rej-instructors/rej-instructors.component.css")]
+    })
+], RejInstructorsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.css":
+/*!**********************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.css ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3JlanV2YW5jZS1zZW1pbmFycy9yZWotdHJhaW5pbmcvcmVqLXRyYWluaW5nLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.ts ***!
+  \*********************************************************************************/
+/*! exports provided: RejTrainingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejTrainingComponent", function() { return RejTrainingComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let RejTrainingComponent = class RejTrainingComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+RejTrainingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-rej-training',
+        template: __webpack_require__(/*! raw-loader!./rej-training.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.html"),
+        styles: [__webpack_require__(/*! ./rej-training.component.css */ "./src/app/pages/rejuvance-seminars/rej-training/rej-training.component.css")]
+    })
+], RejTrainingComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.css":
+/*!****************************************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.css ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3JlanV2YW5jZS1zZW1pbmFycy9yZWotdXBjb21pbmctc2VtaW5hcnMvcmVqLXVwY29taW5nLXNlbWluYXJzLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.ts":
+/*!***************************************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.ts ***!
+  \***************************************************************************************************/
+/*! exports provided: RejUpcomingSeminarsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejUpcomingSeminarsComponent", function() { return RejUpcomingSeminarsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let RejUpcomingSeminarsComponent = class RejUpcomingSeminarsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+RejUpcomingSeminarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-rej-upcoming-seminars',
+        template: __webpack_require__(/*! raw-loader!./rej-upcoming-seminars.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.html"),
+        styles: [__webpack_require__(/*! ./rej-upcoming-seminars.component.css */ "./src/app/pages/rejuvance-seminars/rej-upcoming-seminars/rej-upcoming-seminars.component.css")]
+    })
+], RejUpcomingSeminarsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.css":
+/*!***************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.css ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3JlanV2YW5jZS1zZW1pbmFycy9yZWp1dmFuY2Utc2VtaW5hcnMuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.ts":
+/*!**************************************************************************!*\
+  !*** ./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.ts ***!
+  \**************************************************************************/
+/*! exports provided: RejuvanceSeminarsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RejuvanceSeminarsComponent", function() { return RejuvanceSeminarsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let RejuvanceSeminarsComponent = class RejuvanceSeminarsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+RejuvanceSeminarsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-rejuvance-seminars',
+        template: __webpack_require__(/*! raw-loader!./rejuvance-seminars.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.html"),
+        styles: [__webpack_require__(/*! ./rejuvance-seminars.component.css */ "./src/app/pages/rejuvance-seminars/rejuvance-seminars.component.css")]
+    })
+], RejuvanceSeminarsComponent);
 
 
 
